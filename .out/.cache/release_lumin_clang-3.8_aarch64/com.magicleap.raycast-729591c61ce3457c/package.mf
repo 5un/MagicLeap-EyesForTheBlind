@@ -1,0 +1,338 @@
+{
+ "entries": [
+  {
+   "compression": 8,
+   "hash": "5925de9f4d7b83c65d1fd7b25ced5f0bf8c27e73",
+   "pkgpath": "bin/libc++_shared.so",
+   "size": 976832,
+   "src": "C:/Users/asunn/MagicLeap/mlsdk/v0.17.0/lumin/stl/libc++/lib/libc++_shared.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\asunn\\Projects\\MagicLeapCert\\soravismldev.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "0fd14736adf27ddf6f1277dd3cbf3b49b5ce7009",
+   "xfrm_path": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/.out/.cache/release_lumin_clang-3.8_aarch64/com.magicleap.raycast-729591c61ce3457c\\libc++_shared.so-f021188e1666f40b",
+   "xfrm_size": 977590
+  },
+  {
+   "compression": 8,
+   "hash": "d9f5bfbe26a1d6b3e6f290de1c40a281578264f4",
+   "pkgpath": "Data/464a8e444d372e84186c743f74c741bd",
+   "size": 4124,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/464a8e444d372e84186c743f74c741bd"
+  },
+  {
+   "compression": 8,
+   "hash": "abbb666f6321c9a80de40985afb4a18ef415d86a",
+   "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
+   "size": 5487640,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "63846c2aa1d07da5fd7c985a48b17c1b1ac08cbe",
+   "pkgpath": "bin/libil2cpp.so",
+   "size": 63408584,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/Native/libil2cpp.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\asunn\\Projects\\MagicLeapCert\\soravismldev.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "7798f013e8a6a6f824725a5aa9f19345a0384f8b",
+   "xfrm_path": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/.out/.cache/release_lumin_clang-3.8_aarch64/com.magicleap.raycast-729591c61ce3457c\\libil2cpp.so-f7f629d877a96879",
+   "xfrm_size": 63409342
+  },
+  {
+   "compression": 8,
+   "hash": "99be27c27e2af134a459a05f2240800e1a0eddd0",
+   "pkgpath": "bin/AudioPluginMSASpatializer.so",
+   "size": 247376,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/Plugins/AudioPluginMSASpatializer.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\asunn\\Projects\\MagicLeapCert\\soravismldev.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "c24d44836fa1015b8dce8a2c31c724976b330cb1",
+   "xfrm_path": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/.out/.cache/release_lumin_clang-3.8_aarch64/com.magicleap.raycast-729591c61ce3457c\\AudioPluginMSASpatializer.so-e5c7170950b40f08",
+   "xfrm_size": 248134
+  },
+  {
+   "compression": 8,
+   "hash": "e1d6a3392ecde066ea0cc34538e9839d8d87671d",
+   "pkgpath": "bin/UnityEngine.SpatialTracking.dll",
+   "size": 9216,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/Plugins/UnityEngine.SpatialTracking.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "c0a15a2993e1f9df9db7db864cb0c8f8fa94ca45",
+   "pkgpath": "bin/UnityEngine.TestRunner.dll",
+   "size": 65536,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/Plugins/UnityEngine.TestRunner.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "d93ff7b64d92abd6dbb8419c3348ab5f56ad5ec5",
+   "pkgpath": "bin/UnityMagicLeap.so",
+   "size": 728232,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/Plugins/UnityMagicLeap.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\asunn\\Projects\\MagicLeapCert\\soravismldev.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "81387b42604bf9abce6ea82dfeae453c5984fc5a",
+   "xfrm_path": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/.out/.cache/release_lumin_clang-3.8_aarch64/com.magicleap.raycast-729591c61ce3457c\\UnityMagicLeap.so-e5c7170950b40f08",
+   "xfrm_size": 728990
+  },
+  {
+   "compression": 8,
+   "hash": "2769affdc8da0f6923bee02d6928163c6d1ee44f",
+   "pkgpath": "bin/libml_camera_plugin.so",
+   "size": 14184,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/Plugins/libml_camera_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\asunn\\Projects\\MagicLeapCert\\soravismldev.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "8c84172e961a239b0b03f0ee27ec7e09276b4d76",
+   "xfrm_path": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/.out/.cache/release_lumin_clang-3.8_aarch64/com.magicleap.raycast-729591c61ce3457c\\libml_camera_plugin.so-e5c7170950b40f08",
+   "xfrm_size": 14942
+  },
+  {
+   "compression": 8,
+   "hash": "d8be78bce4b9d6484096ddc11bbdaf7a8ea4da11",
+   "pkgpath": "bin/libml_mediaplayer_plugin.so",
+   "size": 30528,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/Plugins/libml_mediaplayer_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\asunn\\Projects\\MagicLeapCert\\soravismldev.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "22d6b106ae30981befdfa48c4dcb221e66010111",
+   "xfrm_path": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/.out/.cache/release_lumin_clang-3.8_aarch64/com.magicleap.raycast-729591c61ce3457c\\libml_mediaplayer_plugin.so-e5c7170950b40f08",
+   "xfrm_size": 31286
+  },
+  {
+   "compression": 8,
+   "hash": "5629c7ff5fb59ddc72778d4b9d3dbadcde480998",
+   "pkgpath": "bin/nunit.framework.dll",
+   "size": 328192,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/Plugins/nunit.framework.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "991bb8f7486d040646093200316c75e9bd8b8172",
+   "pkgpath": "Data/Resources/System.dll-resources.dat",
+   "size": 54703,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/Resources/System.dll-resources.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "5c08950d8b5f894cbcbdacb57a5e5ccc33a80b42",
+   "pkgpath": "Data/Resources/mscorlib.dll-resources.dat",
+   "size": 372023,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/Resources/mscorlib.dll-resources.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "dc1423ee40a78f4701880b37e1f07bc4f3500e9d",
+   "pkgpath": "Data/Resources/unity default resources",
+   "size": 3308004,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/Resources/unity default resources"
+  },
+  {
+   "compression": 8,
+   "hash": "1a992ef2c40155d35c04ae43e256729d23934be6",
+   "pkgpath": "Data/Resources/unity_builtin_extra",
+   "size": 286156,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/Resources/unity_builtin_extra"
+  },
+  {
+   "compression": 8,
+   "hash": "9bbb5e3aae616602db933abd34140e11132fccea",
+   "pkgpath": "Data/UnitySubsystems/Runtime/UnitySubsystemsManifest.json",
+   "size": 438,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/UnitySubsystems/Runtime/UnitySubsystemsManifest.json"
+  },
+  {
+   "compression": 8,
+   "hash": "584f2106dc0f7c813096e8057435081e48a17e5b",
+   "pkgpath": "Data/a6314524bbc12714291c89e0597e1e5f",
+   "size": 4224,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/a6314524bbc12714291c89e0597e1e5f"
+  },
+  {
+   "compression": 8,
+   "hash": "b088e6387dff2186fa558355a759723407bcbc0a",
+   "pkgpath": "Data/boot.config",
+   "size": 55,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/boot.config"
+  },
+  {
+   "compression": 8,
+   "hash": "a5b45ea3485759a4f22f387c10b04602035a81a2",
+   "pkgpath": "Data/d18f2c2c98fedbf4e9c4f4f42e41447d",
+   "size": 4224,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/d18f2c2c98fedbf4e9c4f4f42e41447d"
+  },
+  {
+   "compression": 8,
+   "hash": "72dd1248a6774c3f47f02d3ac666306af6a288f5",
+   "pkgpath": "Data/globalgamemanagers",
+   "size": 35116,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/globalgamemanagers"
+  },
+  {
+   "compression": 8,
+   "hash": "bd26b5079455908596f7760a871b6295a13d4c79",
+   "pkgpath": "Data/globalgamemanagers.assets",
+   "size": 42576,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/globalgamemanagers.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "a8ebc7ad66579f10ace52ed2496d9d0191808259",
+   "pkgpath": "Data/level0",
+   "size": 10408,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/level0"
+  },
+  {
+   "compression": 8,
+   "hash": "571eb12d7aa87ae03ccce926de7eeb72c32917fb",
+   "pkgpath": "Data/level0.resS",
+   "size": 131232,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/level0.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "fd03cd7068bf06504eea345b40378c34a22db5b3",
+   "pkgpath": "Data/sharedassets0.assets",
+   "size": 1000588,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/sharedassets0.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "81439300537361181f9905b1c2761cfc540728e2",
+   "pkgpath": "Data/sharedassets0.assets.resS",
+   "size": 5262880,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/sharedassets0.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "f2ea30c5279591c6b5ae3928e00c7bb30b3dde8b",
+   "pkgpath": "Icon/Model/RESTRICTED-OutsidePortal_MagicKit.fbx",
+   "size": 810448,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Icon/Model/RESTRICTED-OutsidePortal_MagicKit.fbx"
+  },
+  {
+   "compression": 8,
+   "hash": "77fdf6b3014ce9723e1b6c6141ca521a0bd68803",
+   "pkgpath": "Icon/Model/RESTRICTED-OutsidePortal_MagicKitLogo_Albedo.png",
+   "size": 23725,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Icon/Model/RESTRICTED-OutsidePortal_MagicKitLogo_Albedo.png"
+  },
+  {
+   "compression": 8,
+   "hash": "d5d72ffff9cf4f400ba01a7b0b83ad4c98d04159",
+   "pkgpath": "Icon/Model/RESTRICTED-com_magicleap_direct_icon.kmat",
+   "size": 515,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Icon/Model/RESTRICTED-com_magicleap_direct_icon.kmat"
+  },
+  {
+   "compression": 8,
+   "hash": "d041212ee9c365d72906267a3c307c3bdcf4cc36",
+   "pkgpath": "Icon/Portal/RESTRICTED-InsidePortal_SkySphere.fbx",
+   "size": 34144,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Icon/Portal/RESTRICTED-InsidePortal_SkySphere.fbx"
+  },
+  {
+   "compression": 8,
+   "hash": "e44f015b91bff65f36d0323ccb7f2a4b434b9699",
+   "pkgpath": "Icon/Portal/RESTRICTED-com_magicleap_direct_portal.kmat",
+   "size": 471,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Icon/Portal/RESTRICTED-com_magicleap_direct_portal.kmat"
+  },
+  {
+   "compression": 8,
+   "hash": "c98851814fc53bb91d1a206c3979a0bcd272c039",
+   "pkgpath": "Icon/Portal/RESTRICTED-gradient1.png",
+   "size": 2008,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Icon/Portal/RESTRICTED-gradient1.png"
+  },
+  {
+   "compression": 8,
+   "hash": "2941838c7996ccf3b3ce8ed1a7a864d172bd4b7c",
+   "pkgpath": "bin/Player.elf",
+   "size": 22314872,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Player.elf",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\asunn\\Projects\\MagicLeapCert\\soravismldev.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "2c4aba0c12bf5cef115f3b36de68c17bceed103b",
+   "xfrm_path": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/.out/.cache/release_lumin_clang-3.8_aarch64/com.magicleap.raycast-729591c61ce3457c\\Player.elf-891fc976378e8aa2",
+   "xfrm_size": 22315630
+  },
+  {
+   "compression": 8,
+   "hash": "45a7928d04079ec9c21bac9d5ac66440beb586b4",
+   "pkgpath": "manifest.xml",
+   "size": 667,
+   "src": "C:\\Users\\asunn\\Projects\\Direct-Unity-1.0.0\\Direct\\Temp\\StagingArea\\manifest.xml",
+   "xfrm_flags": {
+    "manifest": {
+     "cert_hash": "2061271408bc336a6ef92940026cc5a62c2228a5",
+     "developer_id": "9fb65bed-f577-4210-9c5a-95995609137d"
+    }
+   },
+   "xfrm_hash": "785bbf1d48905b16d6b243e18ccea1b43b95b1e3",
+   "xfrm_path": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/.out/.cache/release_lumin_clang-3.8_aarch64/com.magicleap.raycast-729591c61ce3457c\\manifest.xml-891fc976378e8aa2",
+   "xfrm_size": 679
+  }
+ ],
+ "pkgflags": {
+  "signed": {
+   "cert": "C:\\Users\\asunn\\Projects\\MagicLeapCert\\soravismldev.cert"
+  },
+  "taildata": {
+   "devcert": "C:\\Users\\asunn\\Projects\\MagicLeapCert\\soravismldev.cert",
+   "sbox": "USER",
+   "version": 3
+  }
+ }
+}

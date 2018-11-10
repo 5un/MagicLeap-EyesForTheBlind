@@ -1,0 +1,1454 @@
+fileFormatVersion: 2
+guid: 42380e84becd44c5391bcfb52cb8d0bb
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Backdrop
+    100002: Background
+    100004: Border_FG
+    100006: Border_Mid
+    100008: Border_Mid2
+    100010: Child
+    100012: Dinosaur
+    100014: //RootNode
+    100016: Father
+    100018: Fire
+    100020: Foreground
+    100022: Ground
+    100024: group10
+    100026: group11
+    100028: group12
+    100030: group13
+    100032: group14
+    100034: group15
+    100036: group16
+    100038: group32
+    100040: group33
+    100042: group34
+    100044: group35
+    100046: group9
+    100048: Huts
+    100050: Meteors
+    100052: MidGround
+    100054: MidGround2
+    100056: Moon
+    100058: pCylinder10
+    100060: pCylinder2
+    100062: pCylinder3
+    100064: pCylinder4
+    100066: pCylinder5
+    100068: pCylinder6
+    100070: pCylinder7
+    100072: pCylinder8
+    100074: pCylinder9
+    100076: planarTrimmedSurface1
+    100078: planarTrimmedSurface16
+    100080: planarTrimmedSurface17
+    100082: planarTrimmedSurface18
+    100084: planarTrimmedSurface2
+    100086: planarTrimmedSurface23
+    100088: planarTrimmedSurface24
+    100090: planarTrimmedSurface25
+    100092: planarTrimmedSurface26
+    100094: planarTrimmedSurface29
+    100096: planarTrimmedSurface3
+    100098: planarTrimmedSurface30
+    100100: planarTrimmedSurface31
+    100102: planarTrimmedSurface32
+    100104: planarTrimmedSurface32 1
+    100106: planarTrimmedSurface32 10
+    100108: planarTrimmedSurface32 11
+    100110: planarTrimmedSurface32 12
+    100112: planarTrimmedSurface32 2
+    100114: planarTrimmedSurface32 3
+    100116: planarTrimmedSurface32 4
+    100118: planarTrimmedSurface32 5
+    100120: planarTrimmedSurface32 6
+    100122: planarTrimmedSurface32 7
+    100124: planarTrimmedSurface32 8
+    100126: planarTrimmedSurface32 9
+    100128: planarTrimmedSurface33
+    100130: planarTrimmedSurface33 1
+    100132: planarTrimmedSurface33 10
+    100134: planarTrimmedSurface33 11
+    100136: planarTrimmedSurface33 12
+    100138: planarTrimmedSurface33 2
+    100140: planarTrimmedSurface33 3
+    100142: planarTrimmedSurface33 4
+    100144: planarTrimmedSurface33 5
+    100146: planarTrimmedSurface33 6
+    100148: planarTrimmedSurface33 7
+    100150: planarTrimmedSurface33 8
+    100152: planarTrimmedSurface33 9
+    100154: planarTrimmedSurface34
+    100156: planarTrimmedSurface35
+    100158: planarTrimmedSurface36
+    100160: planarTrimmedSurface37
+    100162: planarTrimmedSurface38
+    100164: planarTrimmedSurface39
+    100166: planarTrimmedSurface4
+    100168: planarTrimmedSurface41
+    100170: planarTrimmedSurface42
+    100172: planarTrimmedSurface43
+    100174: planarTrimmedSurface44
+    100176: planarTrimmedSurface45
+    100178: planarTrimmedSurface46
+    100180: planarTrimmedSurface47
+    100182: planarTrimmedSurface48
+    100184: planarTrimmedSurface49
+    100186: planarTrimmedSurface5
+    100188: planarTrimmedSurface50
+    100190: planarTrimmedSurface51
+    100192: planarTrimmedSurface52
+    100194: planarTrimmedSurface53
+    100196: planarTrimmedSurface54
+    100198: planarTrimmedSurface55
+    100200: planarTrimmedSurface56
+    100202: planarTrimmedSurface57
+    100204: planarTrimmedSurface58
+    100206: planarTrimmedSurface59
+    100208: planarTrimmedSurface6
+    100210: planarTrimmedSurface60
+    100212: planarTrimmedSurface61
+    100214: planarTrimmedSurface62
+    100216: planarTrimmedSurface63
+    100218: planarTrimmedSurface64
+    100220: planarTrimmedSurface65
+    100222: planarTrimmedSurface66
+    100224: planarTrimmedSurface67
+    100226: planarTrimmedSurface68
+    100228: planarTrimmedSurface7
+    100230: planarTrimmedSurface8
+    100232: planarTrimmedSurface9
+    100234: polySurface1
+    100236: polySurface2
+    100238: polySurface3
+    100240: polySurface4
+    100242: polySurface5
+    100244: polySurface6
+    100246: Stars
+    100248: Trees
+    100250: Trees 1
+    100252: Trees 2
+    100254: Trees 3
+    100256: adult_head_jnt
+    100258: adult_left_arm_jnt
+    100260: adult_left_elbow_jnt
+    100262: adult_left_hand_jnt
+    100264: adult_right_arm_jnt
+    100266: adult_right_elbow_jnt
+    100268: adult_right_hand_jnt
+    100270: adult_root_jnt
+    100272: bones
+    100274: child_head_jnt
+    100276: child_left_arm_jnt
+    100278: child_left_elbow_jnt
+    100280: child_left_hand_jnt
+    100282: child_right_arm_jnt
+    100284: child_right_elbow_jnt
+    100286: child_right_hand_jnt
+    100288: child_root_jnt
+    100290: fire_jnt1
+    100292: fire_jnt2
+    100294: fire_jnt3
+    100296: fire_jnt4
+    100298: fire_jnt5
+    100300: layer1_jnt
+    100302: layer2_jnt
+    100304: layer3_jnt
+    100306: left_hut_shadow_jnt
+    100308: mesh_diorama
+    100310: mesh_mask
+    100312: meteor1_jnt
+    100314: meteor2_jnt
+    100316: moon_jnt
+    100318: right_hut_shadow_jnt
+    100320: root_jnt
+    100322: tree_jnt
+    100324: tree_jnt1
+    100326: tree_jnt2
+    100328: tree_jnt3
+    100330: tree_jnt4
+    100332: tree_jnt5
+    100334: tree_jnt6
+    100336: tree_jnt7
+    100338: tree_jnt8
+    100340: tree_jnt9
+    100342: Diorama_PrimitiveMan
+    100344: adult_controls
+    100346: adult_l_hand_cc
+    100348: adult_r_hand_cc
+    100350: backdrop
+    100352: body
+    100354: body 1
+    100356: border_fg
+    100358: border_mid
+    100360: border_mid2
+    100362: bracelet
+    100364: child_controls
+    100366: child_l_hand_cc
+    100368: child_r_hand_cc
+    100370: controls
+    100372: dinosaur
+    100374: fg_tree1
+    100376: fg_tree2
+    100378: fg_tree3
+    100380: fire_logs
+    100382: fire_piece1
+    100384: fire_piece2
+    100386: fire_piece3
+    100388: fire_piece4
+    100390: fire_piece5
+    100392: ground
+    100394: head
+    100396: head 1
+    100398: hut1_light
+    100400: hut2_light
+    100402: hut_shadow
+    100404: huts
+    100406: IK
+    100408: ikHandle1
+    100410: ikHandle2
+    100412: ikHandle3
+    100414: ikHandle4
+    100416: l_hand
+    100418: l_hand 1
+    100420: l_lower_arm
+    100422: l_lower_arm 1
+    100424: l_upper_arm
+    100426: l_upper_arm 1
+    100428: master_cc
+    100430: meshes
+    100432: meteor1
+    100434: meteor2
+    100436: mid2_tree1
+    100438: mid2_tree2
+    100440: mid2_tree3
+    100442: mid2_tree4
+    100444: mid_tree1
+    100446: mid_tree2
+    100448: mid_tree3
+    100450: mid_tree4
+    100452: mid_tree5
+    100454: moon
+    100456: r_hand
+    100458: r_hand 1
+    100460: r_lower_arm
+    100462: r_lower_arm 1
+    100464: r_upper_arm
+    100466: r_upper_arm 1
+    100468: spear
+    100470: stars
+    100472: trees
+    100474: tree_jnt10
+    100476: tree_jnt2 1
+    100478: tree_jnt3 1
+    400000: Backdrop
+    400002: Background
+    400004: Border_FG
+    400006: Border_Mid
+    400008: Border_Mid2
+    400010: Child
+    400012: Dinosaur
+    400014: //RootNode
+    400016: Father
+    400018: Fire
+    400020: Foreground
+    400022: Ground
+    400024: group10
+    400026: group11
+    400028: group12
+    400030: group13
+    400032: group14
+    400034: group15
+    400036: group16
+    400038: group32
+    400040: group33
+    400042: group34
+    400044: group35
+    400046: group9
+    400048: Huts
+    400050: Meteors
+    400052: MidGround
+    400054: MidGround2
+    400056: Moon
+    400058: pCylinder10
+    400060: pCylinder2
+    400062: pCylinder3
+    400064: pCylinder4
+    400066: pCylinder5
+    400068: pCylinder6
+    400070: pCylinder7
+    400072: pCylinder8
+    400074: pCylinder9
+    400076: planarTrimmedSurface1
+    400078: planarTrimmedSurface16
+    400080: planarTrimmedSurface17
+    400082: planarTrimmedSurface18
+    400084: planarTrimmedSurface2
+    400086: planarTrimmedSurface23
+    400088: planarTrimmedSurface24
+    400090: planarTrimmedSurface25
+    400092: planarTrimmedSurface26
+    400094: planarTrimmedSurface29
+    400096: planarTrimmedSurface3
+    400098: planarTrimmedSurface30
+    400100: planarTrimmedSurface31
+    400102: planarTrimmedSurface32
+    400104: planarTrimmedSurface32 1
+    400106: planarTrimmedSurface32 10
+    400108: planarTrimmedSurface32 11
+    400110: planarTrimmedSurface32 12
+    400112: planarTrimmedSurface32 2
+    400114: planarTrimmedSurface32 3
+    400116: planarTrimmedSurface32 4
+    400118: planarTrimmedSurface32 5
+    400120: planarTrimmedSurface32 6
+    400122: planarTrimmedSurface32 7
+    400124: planarTrimmedSurface32 8
+    400126: planarTrimmedSurface32 9
+    400128: planarTrimmedSurface33
+    400130: planarTrimmedSurface33 1
+    400132: planarTrimmedSurface33 10
+    400134: planarTrimmedSurface33 11
+    400136: planarTrimmedSurface33 12
+    400138: planarTrimmedSurface33 2
+    400140: planarTrimmedSurface33 3
+    400142: planarTrimmedSurface33 4
+    400144: planarTrimmedSurface33 5
+    400146: planarTrimmedSurface33 6
+    400148: planarTrimmedSurface33 7
+    400150: planarTrimmedSurface33 8
+    400152: planarTrimmedSurface33 9
+    400154: planarTrimmedSurface34
+    400156: planarTrimmedSurface35
+    400158: planarTrimmedSurface36
+    400160: planarTrimmedSurface37
+    400162: planarTrimmedSurface38
+    400164: planarTrimmedSurface39
+    400166: planarTrimmedSurface4
+    400168: planarTrimmedSurface41
+    400170: planarTrimmedSurface42
+    400172: planarTrimmedSurface43
+    400174: planarTrimmedSurface44
+    400176: planarTrimmedSurface45
+    400178: planarTrimmedSurface46
+    400180: planarTrimmedSurface47
+    400182: planarTrimmedSurface48
+    400184: planarTrimmedSurface49
+    400186: planarTrimmedSurface5
+    400188: planarTrimmedSurface50
+    400190: planarTrimmedSurface51
+    400192: planarTrimmedSurface52
+    400194: planarTrimmedSurface53
+    400196: planarTrimmedSurface54
+    400198: planarTrimmedSurface55
+    400200: planarTrimmedSurface56
+    400202: planarTrimmedSurface57
+    400204: planarTrimmedSurface58
+    400206: planarTrimmedSurface59
+    400208: planarTrimmedSurface6
+    400210: planarTrimmedSurface60
+    400212: planarTrimmedSurface61
+    400214: planarTrimmedSurface62
+    400216: planarTrimmedSurface63
+    400218: planarTrimmedSurface64
+    400220: planarTrimmedSurface65
+    400222: planarTrimmedSurface66
+    400224: planarTrimmedSurface67
+    400226: planarTrimmedSurface68
+    400228: planarTrimmedSurface7
+    400230: planarTrimmedSurface8
+    400232: planarTrimmedSurface9
+    400234: polySurface1
+    400236: polySurface2
+    400238: polySurface3
+    400240: polySurface4
+    400242: polySurface5
+    400244: polySurface6
+    400246: Stars
+    400248: Trees
+    400250: Trees 1
+    400252: Trees 2
+    400254: Trees 3
+    400256: adult_head_jnt
+    400258: adult_left_arm_jnt
+    400260: adult_left_elbow_jnt
+    400262: adult_left_hand_jnt
+    400264: adult_right_arm_jnt
+    400266: adult_right_elbow_jnt
+    400268: adult_right_hand_jnt
+    400270: adult_root_jnt
+    400272: bones
+    400274: child_head_jnt
+    400276: child_left_arm_jnt
+    400278: child_left_elbow_jnt
+    400280: child_left_hand_jnt
+    400282: child_right_arm_jnt
+    400284: child_right_elbow_jnt
+    400286: child_right_hand_jnt
+    400288: child_root_jnt
+    400290: fire_jnt1
+    400292: fire_jnt2
+    400294: fire_jnt3
+    400296: fire_jnt4
+    400298: fire_jnt5
+    400300: layer1_jnt
+    400302: layer2_jnt
+    400304: layer3_jnt
+    400306: left_hut_shadow_jnt
+    400308: mesh_diorama
+    400310: mesh_mask
+    400312: meteor1_jnt
+    400314: meteor2_jnt
+    400316: moon_jnt
+    400318: right_hut_shadow_jnt
+    400320: root_jnt
+    400322: tree_jnt
+    400324: tree_jnt1
+    400326: tree_jnt2
+    400328: tree_jnt3
+    400330: tree_jnt4
+    400332: tree_jnt5
+    400334: tree_jnt6
+    400336: tree_jnt7
+    400338: tree_jnt8
+    400340: tree_jnt9
+    400342: Diorama_PrimitiveMan
+    400344: adult_controls
+    400346: adult_l_hand_cc
+    400348: adult_r_hand_cc
+    400350: backdrop
+    400352: body
+    400354: body 1
+    400356: border_fg
+    400358: border_mid
+    400360: border_mid2
+    400362: bracelet
+    400364: child_controls
+    400366: child_l_hand_cc
+    400368: child_r_hand_cc
+    400370: controls
+    400372: dinosaur
+    400374: fg_tree1
+    400376: fg_tree2
+    400378: fg_tree3
+    400380: fire_logs
+    400382: fire_piece1
+    400384: fire_piece2
+    400386: fire_piece3
+    400388: fire_piece4
+    400390: fire_piece5
+    400392: ground
+    400394: head
+    400396: head 1
+    400398: hut1_light
+    400400: hut2_light
+    400402: hut_shadow
+    400404: huts
+    400406: IK
+    400408: ikHandle1
+    400410: ikHandle2
+    400412: ikHandle3
+    400414: ikHandle4
+    400416: l_hand
+    400418: l_hand 1
+    400420: l_lower_arm
+    400422: l_lower_arm 1
+    400424: l_upper_arm
+    400426: l_upper_arm 1
+    400428: master_cc
+    400430: meshes
+    400432: meteor1
+    400434: meteor2
+    400436: mid2_tree1
+    400438: mid2_tree2
+    400440: mid2_tree3
+    400442: mid2_tree4
+    400444: mid_tree1
+    400446: mid_tree2
+    400448: mid_tree3
+    400450: mid_tree4
+    400452: mid_tree5
+    400454: moon
+    400456: r_hand
+    400458: r_hand 1
+    400460: r_lower_arm
+    400462: r_lower_arm 1
+    400464: r_upper_arm
+    400466: r_upper_arm 1
+    400468: spear
+    400470: stars
+    400472: trees
+    400474: tree_jnt10
+    400476: tree_jnt2 1
+    400478: tree_jnt3 1
+    2100000: lambert2
+    2100002: lambert4
+    2100004: BlackMask
+    2100006: lambert1
+    2300000: Backdrop
+    2300002: Border_FG
+    2300004: Border_Mid
+    2300006: Border_Mid2
+    2300008: Moon
+    2300010: pCylinder10
+    2300012: pCylinder2
+    2300014: pCylinder3
+    2300016: pCylinder4
+    2300018: pCylinder5
+    2300020: pCylinder6
+    2300022: pCylinder7
+    2300024: pCylinder8
+    2300026: pCylinder9
+    2300028: planarTrimmedSurface1
+    2300030: planarTrimmedSurface16
+    2300032: planarTrimmedSurface17
+    2300034: planarTrimmedSurface18
+    2300036: planarTrimmedSurface2
+    2300038: planarTrimmedSurface23
+    2300040: planarTrimmedSurface24
+    2300042: planarTrimmedSurface25
+    2300044: planarTrimmedSurface26
+    2300046: planarTrimmedSurface29
+    2300048: planarTrimmedSurface3
+    2300050: planarTrimmedSurface30
+    2300052: planarTrimmedSurface31
+    2300054: planarTrimmedSurface32
+    2300056: planarTrimmedSurface32 1
+    2300058: planarTrimmedSurface32 10
+    2300060: planarTrimmedSurface32 11
+    2300062: planarTrimmedSurface32 12
+    2300064: planarTrimmedSurface32 2
+    2300066: planarTrimmedSurface32 3
+    2300068: planarTrimmedSurface32 4
+    2300070: planarTrimmedSurface32 5
+    2300072: planarTrimmedSurface32 6
+    2300074: planarTrimmedSurface32 7
+    2300076: planarTrimmedSurface32 8
+    2300078: planarTrimmedSurface32 9
+    2300080: planarTrimmedSurface33
+    2300082: planarTrimmedSurface33 1
+    2300084: planarTrimmedSurface33 10
+    2300086: planarTrimmedSurface33 11
+    2300088: planarTrimmedSurface33 12
+    2300090: planarTrimmedSurface33 2
+    2300092: planarTrimmedSurface33 3
+    2300094: planarTrimmedSurface33 4
+    2300096: planarTrimmedSurface33 5
+    2300098: planarTrimmedSurface33 6
+    2300100: planarTrimmedSurface33 7
+    2300102: planarTrimmedSurface33 8
+    2300104: planarTrimmedSurface33 9
+    2300106: planarTrimmedSurface34
+    2300108: planarTrimmedSurface35
+    2300110: planarTrimmedSurface36
+    2300112: planarTrimmedSurface37
+    2300114: planarTrimmedSurface38
+    2300116: planarTrimmedSurface39
+    2300118: planarTrimmedSurface4
+    2300120: planarTrimmedSurface41
+    2300122: planarTrimmedSurface42
+    2300124: planarTrimmedSurface43
+    2300126: planarTrimmedSurface44
+    2300128: planarTrimmedSurface45
+    2300130: planarTrimmedSurface46
+    2300132: planarTrimmedSurface47
+    2300134: planarTrimmedSurface48
+    2300136: planarTrimmedSurface49
+    2300138: planarTrimmedSurface5
+    2300140: planarTrimmedSurface50
+    2300142: planarTrimmedSurface51
+    2300144: planarTrimmedSurface52
+    2300146: planarTrimmedSurface53
+    2300148: planarTrimmedSurface54
+    2300150: planarTrimmedSurface55
+    2300152: planarTrimmedSurface56
+    2300154: planarTrimmedSurface57
+    2300156: planarTrimmedSurface58
+    2300158: planarTrimmedSurface59
+    2300160: planarTrimmedSurface6
+    2300162: planarTrimmedSurface60
+    2300164: planarTrimmedSurface61
+    2300166: planarTrimmedSurface62
+    2300168: planarTrimmedSurface63
+    2300170: planarTrimmedSurface64
+    2300172: planarTrimmedSurface65
+    2300174: planarTrimmedSurface66
+    2300176: planarTrimmedSurface67
+    2300178: planarTrimmedSurface68
+    2300180: planarTrimmedSurface7
+    2300182: planarTrimmedSurface8
+    2300184: planarTrimmedSurface9
+    2300186: polySurface1
+    2300188: polySurface2
+    2300190: polySurface3
+    2300192: polySurface4
+    2300194: polySurface5
+    2300196: polySurface6
+    2300198: backdrop
+    2300200: body
+    2300202: body 1
+    2300204: border_fg
+    2300206: border_mid
+    2300208: border_mid2
+    2300210: bracelet
+    2300212: dinosaur
+    2300214: fg_tree1
+    2300216: fg_tree2
+    2300218: fg_tree3
+    2300220: fire_logs
+    2300222: fire_piece1
+    2300224: fire_piece2
+    2300226: fire_piece3
+    2300228: fire_piece4
+    2300230: fire_piece5
+    2300232: ground
+    2300234: head
+    2300236: head 1
+    2300238: hut1_light
+    2300240: hut2_light
+    2300242: hut_shadow
+    2300244: huts
+    2300246: l_hand
+    2300248: l_hand 1
+    2300250: l_lower_arm
+    2300252: l_lower_arm 1
+    2300254: l_upper_arm
+    2300256: l_upper_arm 1
+    2300258: mesh_mask
+    2300260: meteor1
+    2300262: meteor2
+    2300264: mid2_tree1
+    2300266: mid2_tree2
+    2300268: mid2_tree3
+    2300270: mid2_tree4
+    2300272: mid_tree1
+    2300274: mid_tree2
+    2300276: mid_tree3
+    2300278: mid_tree4
+    2300280: mid_tree5
+    2300282: moon
+    2300284: r_hand
+    2300286: r_hand 1
+    2300288: r_lower_arm
+    2300290: r_lower_arm 1
+    2300292: r_upper_arm
+    2300294: r_upper_arm 1
+    2300296: spear
+    2300298: stars
+    2300300: trees
+    3300000: Backdrop
+    3300002: Border_FG
+    3300004: Border_Mid
+    3300006: Border_Mid2
+    3300008: Moon
+    3300010: pCylinder10
+    3300012: pCylinder2
+    3300014: pCylinder3
+    3300016: pCylinder4
+    3300018: pCylinder5
+    3300020: pCylinder6
+    3300022: pCylinder7
+    3300024: pCylinder8
+    3300026: pCylinder9
+    3300028: planarTrimmedSurface1
+    3300030: planarTrimmedSurface16
+    3300032: planarTrimmedSurface17
+    3300034: planarTrimmedSurface18
+    3300036: planarTrimmedSurface2
+    3300038: planarTrimmedSurface23
+    3300040: planarTrimmedSurface24
+    3300042: planarTrimmedSurface25
+    3300044: planarTrimmedSurface26
+    3300046: planarTrimmedSurface29
+    3300048: planarTrimmedSurface3
+    3300050: planarTrimmedSurface30
+    3300052: planarTrimmedSurface31
+    3300054: planarTrimmedSurface32
+    3300056: planarTrimmedSurface32 1
+    3300058: planarTrimmedSurface32 10
+    3300060: planarTrimmedSurface32 11
+    3300062: planarTrimmedSurface32 12
+    3300064: planarTrimmedSurface32 2
+    3300066: planarTrimmedSurface32 3
+    3300068: planarTrimmedSurface32 4
+    3300070: planarTrimmedSurface32 5
+    3300072: planarTrimmedSurface32 6
+    3300074: planarTrimmedSurface32 7
+    3300076: planarTrimmedSurface32 8
+    3300078: planarTrimmedSurface32 9
+    3300080: planarTrimmedSurface33
+    3300082: planarTrimmedSurface33 1
+    3300084: planarTrimmedSurface33 10
+    3300086: planarTrimmedSurface33 11
+    3300088: planarTrimmedSurface33 12
+    3300090: planarTrimmedSurface33 2
+    3300092: planarTrimmedSurface33 3
+    3300094: planarTrimmedSurface33 4
+    3300096: planarTrimmedSurface33 5
+    3300098: planarTrimmedSurface33 6
+    3300100: planarTrimmedSurface33 7
+    3300102: planarTrimmedSurface33 8
+    3300104: planarTrimmedSurface33 9
+    3300106: planarTrimmedSurface34
+    3300108: planarTrimmedSurface35
+    3300110: planarTrimmedSurface36
+    3300112: planarTrimmedSurface37
+    3300114: planarTrimmedSurface38
+    3300116: planarTrimmedSurface39
+    3300118: planarTrimmedSurface4
+    3300120: planarTrimmedSurface41
+    3300122: planarTrimmedSurface42
+    3300124: planarTrimmedSurface43
+    3300126: planarTrimmedSurface44
+    3300128: planarTrimmedSurface45
+    3300130: planarTrimmedSurface46
+    3300132: planarTrimmedSurface47
+    3300134: planarTrimmedSurface48
+    3300136: planarTrimmedSurface49
+    3300138: planarTrimmedSurface5
+    3300140: planarTrimmedSurface50
+    3300142: planarTrimmedSurface51
+    3300144: planarTrimmedSurface52
+    3300146: planarTrimmedSurface53
+    3300148: planarTrimmedSurface54
+    3300150: planarTrimmedSurface55
+    3300152: planarTrimmedSurface56
+    3300154: planarTrimmedSurface57
+    3300156: planarTrimmedSurface58
+    3300158: planarTrimmedSurface59
+    3300160: planarTrimmedSurface6
+    3300162: planarTrimmedSurface60
+    3300164: planarTrimmedSurface61
+    3300166: planarTrimmedSurface62
+    3300168: planarTrimmedSurface63
+    3300170: planarTrimmedSurface64
+    3300172: planarTrimmedSurface65
+    3300174: planarTrimmedSurface66
+    3300176: planarTrimmedSurface67
+    3300178: planarTrimmedSurface68
+    3300180: planarTrimmedSurface7
+    3300182: planarTrimmedSurface8
+    3300184: planarTrimmedSurface9
+    3300186: polySurface1
+    3300188: polySurface2
+    3300190: polySurface3
+    3300192: polySurface4
+    3300194: polySurface5
+    3300196: polySurface6
+    3300198: backdrop
+    3300200: body
+    3300202: body 1
+    3300204: border_fg
+    3300206: border_mid
+    3300208: border_mid2
+    3300210: bracelet
+    3300212: dinosaur
+    3300214: fg_tree1
+    3300216: fg_tree2
+    3300218: fg_tree3
+    3300220: fire_logs
+    3300222: fire_piece1
+    3300224: fire_piece2
+    3300226: fire_piece3
+    3300228: fire_piece4
+    3300230: fire_piece5
+    3300232: ground
+    3300234: head
+    3300236: head 1
+    3300238: hut1_light
+    3300240: hut2_light
+    3300242: hut_shadow
+    3300244: huts
+    3300246: l_hand
+    3300248: l_hand 1
+    3300250: l_lower_arm
+    3300252: l_lower_arm 1
+    3300254: l_upper_arm
+    3300256: l_upper_arm 1
+    3300258: mesh_mask
+    3300260: meteor1
+    3300262: meteor2
+    3300264: mid2_tree1
+    3300266: mid2_tree2
+    3300268: mid2_tree3
+    3300270: mid2_tree4
+    3300272: mid_tree1
+    3300274: mid_tree2
+    3300276: mid_tree3
+    3300278: mid_tree4
+    3300280: mid_tree5
+    3300282: moon
+    3300284: r_hand
+    3300286: r_hand 1
+    3300288: r_lower_arm
+    3300290: r_lower_arm 1
+    3300292: r_upper_arm
+    3300294: r_upper_arm 1
+    3300296: spear
+    3300298: stars
+    3300300: trees
+    4300000: Moon
+    4300002: Backdrop
+    4300004: pCylinder3
+    4300006: pCylinder4
+    4300008: pCylinder5
+    4300010: pCylinder6
+    4300012: pCylinder8
+    4300014: pCylinder7
+    4300016: pCylinder9
+    4300018: pCylinder10
+    4300020: planarTrimmedSurface25
+    4300022: planarTrimmedSurface23
+    4300024: planarTrimmedSurface26
+    4300026: planarTrimmedSurface24
+    4300028: polySurface6
+    4300030: polySurface5
+    4300032: pCylinder2
+    4300034: polySurface1
+    4300036: polySurface2
+    4300038: planarTrimmedSurface1
+    4300040: polySurface4
+    4300042: planarTrimmedSurface45
+    4300044: planarTrimmedSurface43
+    4300046: planarTrimmedSurface41
+    4300048: polySurface3
+    4300050: planarTrimmedSurface42
+    4300052: planarTrimmedSurface46
+    4300054: planarTrimmedSurface47
+    4300056: planarTrimmedSurface48
+    4300058: planarTrimmedSurface44
+    4300060: planarTrimmedSurface68
+    4300062: planarTrimmedSurface67
+    4300064: planarTrimmedSurface66
+    4300066: planarTrimmedSurface65
+    4300068: planarTrimmedSurface64
+    4300070: planarTrimmedSurface63
+    4300072: planarTrimmedSurface62
+    4300074: planarTrimmedSurface61
+    4300076: planarTrimmedSurface60
+    4300078: planarTrimmedSurface59
+    4300080: planarTrimmedSurface58
+    4300082: planarTrimmedSurface57
+    4300084: planarTrimmedSurface56
+    4300086: planarTrimmedSurface55
+    4300088: planarTrimmedSurface54
+    4300090: planarTrimmedSurface53
+    4300092: planarTrimmedSurface52
+    4300094: planarTrimmedSurface32
+    4300096: planarTrimmedSurface51
+    4300098: planarTrimmedSurface50
+    4300100: planarTrimmedSurface49
+    4300102: planarTrimmedSurface33
+    4300104: Border_FG
+    4300106: planarTrimmedSurface39
+    4300108: planarTrimmedSurface38
+    4300110: planarTrimmedSurface37
+    4300112: planarTrimmedSurface36
+    4300114: planarTrimmedSurface34
+    4300116: planarTrimmedSurface35
+    4300118: planarTrimmedSurface9
+    4300120: planarTrimmedSurface8
+    4300122: planarTrimmedSurface7
+    4300124: planarTrimmedSurface2
+    4300126: planarTrimmedSurface3
+    4300128: planarTrimmedSurface6
+    4300130: planarTrimmedSurface4
+    4300132: planarTrimmedSurface5
+    4300134: planarTrimmedSurface18
+    4300136: planarTrimmedSurface17
+    4300138: planarTrimmedSurface16
+    4300140: planarTrimmedSurface29
+    4300142: planarTrimmedSurface31
+    4300144: planarTrimmedSurface30
+    4300146: planarTrimmedSurface32
+    4300148: planarTrimmedSurface33
+    4300150: planarTrimmedSurface32
+    4300152: planarTrimmedSurface33
+    4300154: planarTrimmedSurface32
+    4300156: planarTrimmedSurface33
+    4300158: Border_Mid
+    4300160: planarTrimmedSurface32
+    4300162: planarTrimmedSurface33
+    4300164: planarTrimmedSurface32
+    4300166: planarTrimmedSurface33
+    4300168: planarTrimmedSurface32
+    4300170: planarTrimmedSurface33
+    4300172: planarTrimmedSurface32
+    4300174: planarTrimmedSurface33
+    4300176: planarTrimmedSurface32
+    4300178: planarTrimmedSurface33
+    4300180: Border_Mid2
+    4300182: planarTrimmedSurface32
+    4300184: planarTrimmedSurface33
+    4300186: planarTrimmedSurface32
+    4300188: planarTrimmedSurface33
+    4300190: planarTrimmedSurface32
+    4300192: planarTrimmedSurface33
+    4300194: planarTrimmedSurface32
+    4300196: planarTrimmedSurface33
+    4300198: mesh_mask
+    4300200: mesh_diorama
+    4300202: moon
+    4300204: backdrop
+    4300206: huts
+    4300208: hut2_light
+    4300210: hut_shadow
+    4300212: hut1_light
+    4300214: stars
+    4300216: meteor1
+    4300218: meteor2
+    4300220: ground
+    4300222: trees
+    4300224: dinosaur
+    4300226: border_fg
+    4300228: fire_piece5
+    4300230: fire_piece4
+    4300232: fire_piece3
+    4300234: fire_logs
+    4300236: fire_piece2
+    4300238: fire_piece1
+    4300240: r_hand
+    4300242: l_lower_arm
+    4300244: l_upper_arm
+    4300246: r_upper_arm
+    4300248: r_lower_arm
+    4300250: l_hand
+    4300252: head
+    4300254: bracelet
+    4300256: spear
+    4300258: body
+    4300260: head
+    4300262: l_hand
+    4300264: r_hand
+    4300266: l_lower_arm
+    4300268: l_upper_arm
+    4300270: r_upper_arm
+    4300272: r_lower_arm
+    4300274: body
+    4300276: fg_tree3
+    4300278: fg_tree2
+    4300280: fg_tree1
+    4300282: border_mid
+    4300284: mid_tree5
+    4300286: mid_tree4
+    4300288: mid_tree3
+    4300290: mid_tree2
+    4300292: mid_tree1
+    4300294: border_mid2
+    4300296: mid2_tree4
+    4300298: mid2_tree3
+    4300300: mid2_tree2
+    4300302: mid2_tree1
+    7400000: Contract
+    7400002: Expand
+    7400004: Scene Active
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: mesh_diorama
+    13700002: mesh_mask
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlackMask
+    second: {fileID: 2100000, guid: 48344bb7bd7de4f30a2db9504d0c7584, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PrimitiveMan_Mask
+    second: {fileID: 2100000, guid: 47d54eb2dfccd774eadc8d128409a0d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PrimitiveMan_Mat1
+    second: {fileID: 2100000, guid: 81e61e188dbb72d4d907169375407544, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PrimitiveMan_Mat2
+    second: {fileID: 2100000, guid: f99378bb1b841cc478c3cb50341cc56b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: acba2b73608274bd8bf3068b41d6d2dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: fd45911108d28402bbf488bd94026782, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3
+    second: {fileID: 2100000, guid: 6a8464b6a13574284b85ada20aa8efe4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4
+    second: {fileID: 2100000, guid: ed1be90142bd24ef7a59962387c8db55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert5
+    second: {fileID: 2100000, guid: 9d6b23e3edafd467ca739b8f3a52c890, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert9
+    second: {fileID: 2100000, guid: fa2ab6fcbb5474c61942c956777657b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: useBackground1
+    second: {fileID: 2100000, guid: 5533d01b27b754a48b248e6f3f6eb252, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Contract
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bones
+        weight: 0
+      - path: bones/root_jnt
+        weight: 0
+      - path: bones/root_jnt/layer1_jnt
+        weight: 0
+      - path: bones/root_jnt/layer1_jnt/left_hut_shadow_jnt
+        weight: 0
+      - path: bones/root_jnt/layer1_jnt/right_hut_shadow_jnt
+        weight: 0
+      - path: bones/root_jnt/layer1_jnt/tree_jnt1
+        weight: 0
+      - path: bones/root_jnt/layer1_jnt/tree_jnt2
+        weight: 0
+      - path: bones/root_jnt/layer1_jnt/tree_jnt3
+        weight: 0
+      - path: bones/root_jnt/layer1_jnt/tree_jnt4
+        weight: 0
+      - path: bones/root_jnt/layer2_jnt
+        weight: 0
+      - path: bones/root_jnt/layer2_jnt/tree_jnt2 1
+        weight: 0
+      - path: bones/root_jnt/layer2_jnt/tree_jnt3 1
+        weight: 0
+      - path: bones/root_jnt/layer2_jnt/tree_jnt5
+        weight: 0
+      - path: bones/root_jnt/layer2_jnt/tree_jnt6
+        weight: 0
+      - path: bones/root_jnt/layer2_jnt/tree_jnt7
+        weight: 0
+      - path: bones/root_jnt/layer2_jnt/tree_jnt10
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/adult_root_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/adult_root_jnt/adult_head_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/adult_root_jnt/adult_left_arm_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/adult_root_jnt/adult_left_arm_jnt/adult_left_elbow_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/adult_root_jnt/adult_left_arm_jnt/adult_left_elbow_jnt/adult_left_hand_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/adult_root_jnt/adult_right_arm_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/adult_root_jnt/adult_right_arm_jnt/adult_right_elbow_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/adult_root_jnt/adult_right_arm_jnt/adult_right_elbow_jnt/adult_right_hand_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/child_root_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/child_root_jnt/child_head_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/child_root_jnt/child_left_arm_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/child_root_jnt/child_left_arm_jnt/child_left_elbow_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/child_root_jnt/child_left_arm_jnt/child_left_elbow_jnt/child_left_hand_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/child_root_jnt/child_right_arm_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/child_root_jnt/child_right_arm_jnt/child_right_elbow_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/child_root_jnt/child_right_arm_jnt/child_right_elbow_jnt/child_right_hand_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/fire_jnt1
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/fire_jnt2
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/fire_jnt3
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/fire_jnt4
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/fire_jnt5
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/tree_jnt8
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/tree_jnt9
+        weight: 0
+      - path: bones/root_jnt/meteor1_jnt
+        weight: 0
+      - path: bones/root_jnt/meteor2_jnt
+        weight: 0
+      - path: bones/root_jnt/moon_jnt
+        weight: 0
+      - path: mesh_diorama
+        weight: 1
+      - path: mesh_mask
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Expand
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: ExpandEnd
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bones
+        weight: 0
+      - path: bones/root_jnt
+        weight: 0
+      - path: bones/root_jnt/layer1_jnt
+        weight: 0
+      - path: bones/root_jnt/layer1_jnt/left_hut_shadow_jnt
+        weight: 0
+      - path: bones/root_jnt/layer1_jnt/right_hut_shadow_jnt
+        weight: 0
+      - path: bones/root_jnt/layer1_jnt/tree_jnt1
+        weight: 0
+      - path: bones/root_jnt/layer1_jnt/tree_jnt2
+        weight: 0
+      - path: bones/root_jnt/layer1_jnt/tree_jnt3
+        weight: 0
+      - path: bones/root_jnt/layer1_jnt/tree_jnt4
+        weight: 0
+      - path: bones/root_jnt/layer2_jnt
+        weight: 0
+      - path: bones/root_jnt/layer2_jnt/tree_jnt2 1
+        weight: 0
+      - path: bones/root_jnt/layer2_jnt/tree_jnt3 1
+        weight: 0
+      - path: bones/root_jnt/layer2_jnt/tree_jnt5
+        weight: 0
+      - path: bones/root_jnt/layer2_jnt/tree_jnt6
+        weight: 0
+      - path: bones/root_jnt/layer2_jnt/tree_jnt7
+        weight: 0
+      - path: bones/root_jnt/layer2_jnt/tree_jnt10
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/adult_root_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/adult_root_jnt/adult_head_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/adult_root_jnt/adult_left_arm_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/adult_root_jnt/adult_left_arm_jnt/adult_left_elbow_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/adult_root_jnt/adult_left_arm_jnt/adult_left_elbow_jnt/adult_left_hand_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/adult_root_jnt/adult_right_arm_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/adult_root_jnt/adult_right_arm_jnt/adult_right_elbow_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/adult_root_jnt/adult_right_arm_jnt/adult_right_elbow_jnt/adult_right_hand_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/child_root_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/child_root_jnt/child_head_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/child_root_jnt/child_left_arm_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/child_root_jnt/child_left_arm_jnt/child_left_elbow_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/child_root_jnt/child_left_arm_jnt/child_left_elbow_jnt/child_left_hand_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/child_root_jnt/child_right_arm_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/child_root_jnt/child_right_arm_jnt/child_right_elbow_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/child_root_jnt/child_right_arm_jnt/child_right_elbow_jnt/child_right_hand_jnt
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/fire_jnt1
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/fire_jnt2
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/fire_jnt3
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/fire_jnt4
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/fire_jnt5
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/tree_jnt8
+        weight: 0
+      - path: bones/root_jnt/layer3_jnt/tree_jnt9
+        weight: 0
+      - path: bones/root_jnt/meteor1_jnt
+        weight: 0
+      - path: bones/root_jnt/meteor2_jnt
+        weight: 0
+      - path: bones/root_jnt/moon_jnt
+        weight: 0
+      - path: mesh_diorama
+        weight: 1
+      - path: mesh_mask
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Scene Active
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 1200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bones
+        weight: 1
+      - path: bones/root_jnt
+        weight: 1
+      - path: bones/root_jnt/layer1_jnt
+        weight: 1
+      - path: bones/root_jnt/layer1_jnt/left_hut_shadow_jnt
+        weight: 1
+      - path: bones/root_jnt/layer1_jnt/right_hut_shadow_jnt
+        weight: 1
+      - path: bones/root_jnt/layer1_jnt/tree_jnt1
+        weight: 1
+      - path: bones/root_jnt/layer1_jnt/tree_jnt2
+        weight: 1
+      - path: bones/root_jnt/layer1_jnt/tree_jnt3
+        weight: 1
+      - path: bones/root_jnt/layer1_jnt/tree_jnt4
+        weight: 1
+      - path: bones/root_jnt/layer2_jnt
+        weight: 1
+      - path: bones/root_jnt/layer2_jnt/tree_jnt2 1
+        weight: 1
+      - path: bones/root_jnt/layer2_jnt/tree_jnt3 1
+        weight: 1
+      - path: bones/root_jnt/layer2_jnt/tree_jnt5
+        weight: 1
+      - path: bones/root_jnt/layer2_jnt/tree_jnt6
+        weight: 1
+      - path: bones/root_jnt/layer2_jnt/tree_jnt7
+        weight: 1
+      - path: bones/root_jnt/layer2_jnt/tree_jnt10
+        weight: 1
+      - path: bones/root_jnt/layer3_jnt
+        weight: 1
+      - path: bones/root_jnt/layer3_jnt/adult_root_jnt
+        weight: 1
+      - path: bones/root_jnt/layer3_jnt/adult_root_jnt/adult_head_jnt
+        weight: 1
+      - path: bones/root_jnt/layer3_jnt/adult_root_jnt/adult_left_arm_jnt
+        weight: 1
+      - path: bones/root_jnt/layer3_jnt/adult_root_jnt/adult_left_arm_jnt/adult_left_elbow_jnt
+        weight: 1
+      - path: bones/root_jnt/layer3_jnt/adult_root_jnt/adult_left_arm_jnt/adult_left_elbow_jnt/adult_left_hand_jnt
+        weight: 1
+      - path: bones/root_jnt/layer3_jnt/adult_root_jnt/adult_right_arm_jnt
+        weight: 1
+      - path: bones/root_jnt/layer3_jnt/adult_root_jnt/adult_right_arm_jnt/adult_right_elbow_jnt
+        weight: 1
+      - path: bones/root_jnt/layer3_jnt/adult_root_jnt/adult_right_arm_jnt/adult_right_elbow_jnt/adult_right_hand_jnt
+        weight: 1
+      - path: bones/root_jnt/layer3_jnt/child_root_jnt
+        weight: 1
+      - path: bones/root_jnt/layer3_jnt/child_root_jnt/child_head_jnt
+        weight: 1
+      - path: bones/root_jnt/layer3_jnt/child_root_jnt/child_left_arm_jnt
+        weight: 1
+      - path: bones/root_jnt/layer3_jnt/child_root_jnt/child_left_arm_jnt/child_left_elbow_jnt
+        weight: 1
+      - path: bones/root_jnt/layer3_jnt/child_root_jnt/child_left_arm_jnt/child_left_elbow_jnt/child_left_hand_jnt
+        weight: 1
+      - path: bones/root_jnt/layer3_jnt/child_root_jnt/child_right_arm_jnt
+        weight: 1
+      - path: bones/root_jnt/layer3_jnt/child_root_jnt/child_right_arm_jnt/child_right_elbow_jnt
+        weight: 1
+      - path: bones/root_jnt/layer3_jnt/child_root_jnt/child_right_arm_jnt/child_right_elbow_jnt/child_right_hand_jnt
+        weight: 1
+      - path: bones/root_jnt/layer3_jnt/fire_jnt1
+        weight: 1
+      - path: bones/root_jnt/layer3_jnt/fire_jnt2
+        weight: 1
+      - path: bones/root_jnt/layer3_jnt/fire_jnt3
+        weight: 1
+      - path: bones/root_jnt/layer3_jnt/fire_jnt4
+        weight: 1
+      - path: bones/root_jnt/layer3_jnt/fire_jnt5
+        weight: 1
+      - path: bones/root_jnt/layer3_jnt/tree_jnt8
+        weight: 1
+      - path: bones/root_jnt/layer3_jnt/tree_jnt9
+        weight: 1
+      - path: bones/root_jnt/meteor1_jnt
+        weight: 1
+      - path: bones/root_jnt/meteor2_jnt
+        weight: 1
+      - path: bones/root_jnt/moon_jnt
+        weight: 1
+      - path: mesh_diorama
+        weight: 0
+      - path: mesh_mask
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 0
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 0
+    normalImportMode: 0
+    tangentImportMode: 0
+    normalCalculationMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

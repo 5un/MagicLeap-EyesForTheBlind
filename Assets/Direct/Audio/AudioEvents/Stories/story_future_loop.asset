@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3788ff231733e644d9ea9b686b26516f, type: 3}
+  m_Name: story_future_loop
+  m_EditorClassIdentifier: 
+  eventName: story_loop
+  audioClips:
+  - {fileID: 8300000, guid: 7472da8df8eca104f99944daa802a8ee, type: 3}
+  pitch: 1
+  pitchVariance: 0
+  volume: 1
+  volumeVariance: 0
+  loop: 1

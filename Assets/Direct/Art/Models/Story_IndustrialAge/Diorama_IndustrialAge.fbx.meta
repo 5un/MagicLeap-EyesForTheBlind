@@ -1,0 +1,662 @@
+fileFormatVersion: 2
+guid: 6fc109d09708d1c43adb85e0b085a6f8
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Adult
+    100002: Airplane
+    100004: BackgroundTrees_L
+    100006: BackgroundTrees_R
+    100008: Car
+    100010: CarShadow
+    100012: Child
+    100014: //RootNode
+    100016: ForegroundTrees_R
+    100018: ForgroundTrees_L
+    100020: PropEffect
+    100022: Sky
+    100024: Smoke
+    100026: Terrain
+    100028: Town
+    100030: TownShadow
+    100032: Train
+    100034: airplane_jnt
+    100036: bones
+    100038: boy_head_jnt
+    100040: boy_hip_jnt
+    100042: boy_l_arm_jnt
+    100044: boy_l_hand_jnt
+    100046: boy_r_arm_jnt
+    100048: boy_r_hand_jnt
+    100050: car_body_jnt
+    100052: car_root_jnt
+    100054: diorama_mesh
+    100056: driver_arm_jnt
+    100058: driver_hand_jnt
+    100060: driver_head_jnt
+    100062: driver_hip_jnt
+    100064: factory_smoke1_jnt
+    100066: factory_smoke2_jnt
+    100068: factory_smoke3_jnt
+    100070: fg_l_tree1
+    100072: fg_l_tree2
+    100074: fg_l_tree3
+    100076: fg_l_tree4
+    100078: fg_r_tree1
+    100080: fg_r_tree2
+    100082: fg_r_tree3
+    100084: fg_r_tree4
+    100086: fg_r_tree5
+    100088: fg_r_tree6
+    100090: l_cloud_jnt
+    100092: r_cloud_jnt
+    100094: root_jnt
+    100096: train_jnt
+    100098: train_jnt1
+    100100: train_jnt2
+    100102: train_jnt3
+    100104: train_jnt4
+    100106: train_jnt5
+    400000: Adult
+    400002: Airplane
+    400004: BackgroundTrees_L
+    400006: BackgroundTrees_R
+    400008: Car
+    400010: CarShadow
+    400012: Child
+    400014: //RootNode
+    400016: ForegroundTrees_R
+    400018: ForgroundTrees_L
+    400020: PropEffect
+    400022: Sky
+    400024: Smoke
+    400026: Terrain
+    400028: Town
+    400030: TownShadow
+    400032: Train
+    400034: airplane_jnt
+    400036: bones
+    400038: boy_head_jnt
+    400040: boy_hip_jnt
+    400042: boy_l_arm_jnt
+    400044: boy_l_hand_jnt
+    400046: boy_r_arm_jnt
+    400048: boy_r_hand_jnt
+    400050: car_body_jnt
+    400052: car_root_jnt
+    400054: diorama_mesh
+    400056: driver_arm_jnt
+    400058: driver_hand_jnt
+    400060: driver_head_jnt
+    400062: driver_hip_jnt
+    400064: factory_smoke1_jnt
+    400066: factory_smoke2_jnt
+    400068: factory_smoke3_jnt
+    400070: fg_l_tree1
+    400072: fg_l_tree2
+    400074: fg_l_tree3
+    400076: fg_l_tree4
+    400078: fg_r_tree1
+    400080: fg_r_tree2
+    400082: fg_r_tree3
+    400084: fg_r_tree4
+    400086: fg_r_tree5
+    400088: fg_r_tree6
+    400090: l_cloud_jnt
+    400092: r_cloud_jnt
+    400094: root_jnt
+    400096: train_jnt
+    400098: train_jnt1
+    400100: train_jnt2
+    400102: train_jnt3
+    400104: train_jnt4
+    400106: train_jnt5
+    2100000: Industrial_PropEffect_MAT
+    2100002: Industrial_Trees_MAT
+    2100004: Industrial_Terrain_MAT
+    2100006: Industrial_Smoke_MAT
+    2100008: Industrial_Sky_MAT
+    2100010: Industrial_Shadows_MAT
+    2100012: Industrial_Airplane_MAT
+    2100014: Industrial_TrainTown_MAT
+    2100016: Industrial_Car_MAT
+    2100018: Industrial_People_MAT
+    2100020: lambert1
+    2100022: lambert3
+    2300000: Adult
+    2300002: Airplane
+    2300004: BackgroundTrees_L
+    2300006: BackgroundTrees_R
+    2300008: Car
+    2300010: CarShadow
+    2300012: Child
+    2300014: ForegroundTrees_R
+    2300016: ForgroundTrees_L
+    2300018: PropEffect
+    2300020: Sky
+    2300022: Smoke
+    2300024: Terrain
+    2300026: Town
+    2300028: TownShadow
+    2300030: Train
+    2300032: diorama_mesh
+    3300000: Adult
+    3300002: Airplane
+    3300004: BackgroundTrees_L
+    3300006: BackgroundTrees_R
+    3300008: Car
+    3300010: CarShadow
+    3300012: Child
+    3300014: ForegroundTrees_R
+    3300016: ForgroundTrees_L
+    3300018: PropEffect
+    3300020: Sky
+    3300022: Smoke
+    3300024: Terrain
+    3300026: Town
+    3300028: TownShadow
+    3300030: Train
+    3300032: diorama_mesh
+    4300000: PropEffect
+    4300002: ForgroundTrees_L
+    4300004: Terrain
+    4300006: Smoke
+    4300008: Sky
+    4300010: TownShadow
+    4300012: Airplane
+    4300014: Train
+    4300016: Town
+    4300018: CarShadow
+    4300020: Car
+    4300022: BackgroundTrees_L
+    4300024: BackgroundTrees_R
+    4300026: ForegroundTrees_R
+    4300028: Child
+    4300030: Adult
+    4300032: diorama_mesh
+    7400000: Contract
+    7400002: Expand
+    7400004: Scene Active
+    9500000: //RootNode
+    13700000: diorama_mesh
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IndustrialAge_Mat1
+    second: {fileID: 2100000, guid: 3f4cea3807902c741ad6acea5cabadeb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IndustrialAge_Mat2
+    second: {fileID: 2100000, guid: 4b3de475fae8fd54cb462f694d49f515, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IndustrialAge_Mat3
+    second: {fileID: 2100000, guid: d1c8d71ca9eba4e43a483e6755d8b655, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IndustrialAge_Mat4
+    second: {fileID: 2100000, guid: 829aace3492555b4184abbc061d53773, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IndustrialAge_Mat5
+    second: {fileID: 2100000, guid: d1c8d71ca9eba4e43a483e6755d8b655, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IndustrialAge_Propeller_MAT
+    second: {fileID: 2100000, guid: 79c642687be0e4f44a37a3687b503e06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Industrial_Airplane_MAT
+    second: {fileID: 2100000, guid: a637e46467585c7458de5b07e8066fd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Industrial_Car_MAT
+    second: {fileID: 2100000, guid: 4e5459c5b81aa704998866b13d97f6f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Industrial_People_MAT
+    second: {fileID: 2100000, guid: e2fcb47b8eb2cd34eb92282d3273f870, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Industrial_PropEffect_MAT
+    second: {fileID: 2100000, guid: bf652b894146695428cbeafabd2723b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Industrial_Shadows_MAT
+    second: {fileID: 2100000, guid: c0c288f6af5484b47a5dfbad001458ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Industrial_Sky_MAT
+    second: {fileID: 2100000, guid: edd39418a1eeca34dbe6317ff8488354, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Industrial_Smoke_MAT
+    second: {fileID: 2100000, guid: aeedd26c64213944a876b9b7c4b5f807, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Industrial_Terrain_MAT
+    second: {fileID: 2100000, guid: ec332b6890875834c99293ecf75d4d97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Industrial_TrainTown_MAT
+    second: {fileID: 2100000, guid: 49221a9f3005d03489605366c6bb39ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Industrial_Trees_MAT
+    second: {fileID: 2100000, guid: 8e610a7fb3076874faf38315ec031020, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Contract
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bones
+        weight: 0
+      - path: bones/root_jnt
+        weight: 0
+      - path: bones/root_jnt/airplane_jnt
+        weight: 0
+      - path: bones/root_jnt/boy_hip_jnt
+        weight: 0
+      - path: bones/root_jnt/boy_hip_jnt/boy_head_jnt
+        weight: 0
+      - path: bones/root_jnt/boy_hip_jnt/boy_l_arm_jnt
+        weight: 0
+      - path: bones/root_jnt/boy_hip_jnt/boy_l_arm_jnt/boy_l_hand_jnt
+        weight: 0
+      - path: bones/root_jnt/boy_hip_jnt/boy_r_arm_jnt
+        weight: 0
+      - path: bones/root_jnt/boy_hip_jnt/boy_r_arm_jnt/boy_r_hand_jnt
+        weight: 0
+      - path: bones/root_jnt/car_root_jnt
+        weight: 0
+      - path: bones/root_jnt/car_root_jnt/car_body_jnt
+        weight: 0
+      - path: bones/root_jnt/car_root_jnt/car_body_jnt/driver_hip_jnt
+        weight: 0
+      - path: bones/root_jnt/car_root_jnt/car_body_jnt/driver_hip_jnt/driver_arm_jnt
+        weight: 0
+      - path: bones/root_jnt/car_root_jnt/car_body_jnt/driver_hip_jnt/driver_arm_jnt/driver_hand_jnt
+        weight: 0
+      - path: bones/root_jnt/car_root_jnt/car_body_jnt/driver_hip_jnt/driver_head_jnt
+        weight: 0
+      - path: bones/root_jnt/factory_smoke1_jnt
+        weight: 0
+      - path: bones/root_jnt/factory_smoke2_jnt
+        weight: 0
+      - path: bones/root_jnt/factory_smoke3_jnt
+        weight: 0
+      - path: bones/root_jnt/fg_l_tree1
+        weight: 0
+      - path: bones/root_jnt/fg_l_tree2
+        weight: 0
+      - path: bones/root_jnt/fg_l_tree3
+        weight: 0
+      - path: bones/root_jnt/fg_l_tree4
+        weight: 0
+      - path: bones/root_jnt/fg_r_tree1
+        weight: 0
+      - path: bones/root_jnt/fg_r_tree2
+        weight: 0
+      - path: bones/root_jnt/fg_r_tree3
+        weight: 0
+      - path: bones/root_jnt/fg_r_tree4
+        weight: 0
+      - path: bones/root_jnt/fg_r_tree5
+        weight: 0
+      - path: bones/root_jnt/fg_r_tree6
+        weight: 0
+      - path: bones/root_jnt/l_cloud_jnt
+        weight: 0
+      - path: bones/root_jnt/r_cloud_jnt
+        weight: 0
+      - path: bones/root_jnt/train_jnt
+        weight: 0
+      - path: bones/root_jnt/train_jnt/train_jnt1
+        weight: 0
+      - path: bones/root_jnt/train_jnt/train_jnt1/train_jnt2
+        weight: 0
+      - path: bones/root_jnt/train_jnt/train_jnt1/train_jnt2/train_jnt3
+        weight: 0
+      - path: bones/root_jnt/train_jnt/train_jnt1/train_jnt2/train_jnt3/train_jnt4
+        weight: 0
+      - path: bones/root_jnt/train_jnt/train_jnt1/train_jnt2/train_jnt3/train_jnt4/train_jnt5
+        weight: 0
+      - path: diorama_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Expand
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: ExpandEnd
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bones
+        weight: 0
+      - path: bones/root_jnt
+        weight: 0
+      - path: bones/root_jnt/airplane_jnt
+        weight: 0
+      - path: bones/root_jnt/boy_hip_jnt
+        weight: 0
+      - path: bones/root_jnt/boy_hip_jnt/boy_head_jnt
+        weight: 0
+      - path: bones/root_jnt/boy_hip_jnt/boy_l_arm_jnt
+        weight: 0
+      - path: bones/root_jnt/boy_hip_jnt/boy_l_arm_jnt/boy_l_hand_jnt
+        weight: 0
+      - path: bones/root_jnt/boy_hip_jnt/boy_r_arm_jnt
+        weight: 0
+      - path: bones/root_jnt/boy_hip_jnt/boy_r_arm_jnt/boy_r_hand_jnt
+        weight: 0
+      - path: bones/root_jnt/car_root_jnt
+        weight: 0
+      - path: bones/root_jnt/car_root_jnt/car_body_jnt
+        weight: 0
+      - path: bones/root_jnt/car_root_jnt/car_body_jnt/driver_hip_jnt
+        weight: 0
+      - path: bones/root_jnt/car_root_jnt/car_body_jnt/driver_hip_jnt/driver_arm_jnt
+        weight: 0
+      - path: bones/root_jnt/car_root_jnt/car_body_jnt/driver_hip_jnt/driver_arm_jnt/driver_hand_jnt
+        weight: 0
+      - path: bones/root_jnt/car_root_jnt/car_body_jnt/driver_hip_jnt/driver_head_jnt
+        weight: 0
+      - path: bones/root_jnt/factory_smoke1_jnt
+        weight: 0
+      - path: bones/root_jnt/factory_smoke2_jnt
+        weight: 0
+      - path: bones/root_jnt/factory_smoke3_jnt
+        weight: 0
+      - path: bones/root_jnt/fg_l_tree1
+        weight: 0
+      - path: bones/root_jnt/fg_l_tree2
+        weight: 0
+      - path: bones/root_jnt/fg_l_tree3
+        weight: 0
+      - path: bones/root_jnt/fg_l_tree4
+        weight: 0
+      - path: bones/root_jnt/fg_r_tree1
+        weight: 0
+      - path: bones/root_jnt/fg_r_tree2
+        weight: 0
+      - path: bones/root_jnt/fg_r_tree3
+        weight: 0
+      - path: bones/root_jnt/fg_r_tree4
+        weight: 0
+      - path: bones/root_jnt/fg_r_tree5
+        weight: 0
+      - path: bones/root_jnt/fg_r_tree6
+        weight: 0
+      - path: bones/root_jnt/l_cloud_jnt
+        weight: 0
+      - path: bones/root_jnt/r_cloud_jnt
+        weight: 0
+      - path: bones/root_jnt/train_jnt
+        weight: 0
+      - path: bones/root_jnt/train_jnt/train_jnt1
+        weight: 0
+      - path: bones/root_jnt/train_jnt/train_jnt1/train_jnt2
+        weight: 0
+      - path: bones/root_jnt/train_jnt/train_jnt1/train_jnt2/train_jnt3
+        weight: 0
+      - path: bones/root_jnt/train_jnt/train_jnt1/train_jnt2/train_jnt3/train_jnt4
+        weight: 0
+      - path: bones/root_jnt/train_jnt/train_jnt1/train_jnt2/train_jnt3/train_jnt4/train_jnt5
+        weight: 0
+      - path: diorama_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Scene Active
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 1800
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bones
+        weight: 1
+      - path: bones/root_jnt
+        weight: 1
+      - path: bones/root_jnt/airplane_jnt
+        weight: 1
+      - path: bones/root_jnt/boy_hip_jnt
+        weight: 1
+      - path: bones/root_jnt/boy_hip_jnt/boy_head_jnt
+        weight: 1
+      - path: bones/root_jnt/boy_hip_jnt/boy_l_arm_jnt
+        weight: 1
+      - path: bones/root_jnt/boy_hip_jnt/boy_l_arm_jnt/boy_l_hand_jnt
+        weight: 1
+      - path: bones/root_jnt/boy_hip_jnt/boy_r_arm_jnt
+        weight: 1
+      - path: bones/root_jnt/boy_hip_jnt/boy_r_arm_jnt/boy_r_hand_jnt
+        weight: 1
+      - path: bones/root_jnt/car_root_jnt
+        weight: 1
+      - path: bones/root_jnt/car_root_jnt/car_body_jnt
+        weight: 1
+      - path: bones/root_jnt/car_root_jnt/car_body_jnt/driver_hip_jnt
+        weight: 1
+      - path: bones/root_jnt/car_root_jnt/car_body_jnt/driver_hip_jnt/driver_arm_jnt
+        weight: 1
+      - path: bones/root_jnt/car_root_jnt/car_body_jnt/driver_hip_jnt/driver_arm_jnt/driver_hand_jnt
+        weight: 1
+      - path: bones/root_jnt/car_root_jnt/car_body_jnt/driver_hip_jnt/driver_head_jnt
+        weight: 1
+      - path: bones/root_jnt/factory_smoke1_jnt
+        weight: 1
+      - path: bones/root_jnt/factory_smoke2_jnt
+        weight: 1
+      - path: bones/root_jnt/factory_smoke3_jnt
+        weight: 1
+      - path: bones/root_jnt/fg_l_tree1
+        weight: 1
+      - path: bones/root_jnt/fg_l_tree2
+        weight: 1
+      - path: bones/root_jnt/fg_l_tree3
+        weight: 1
+      - path: bones/root_jnt/fg_l_tree4
+        weight: 1
+      - path: bones/root_jnt/fg_r_tree1
+        weight: 1
+      - path: bones/root_jnt/fg_r_tree2
+        weight: 1
+      - path: bones/root_jnt/fg_r_tree3
+        weight: 1
+      - path: bones/root_jnt/fg_r_tree4
+        weight: 1
+      - path: bones/root_jnt/fg_r_tree5
+        weight: 1
+      - path: bones/root_jnt/fg_r_tree6
+        weight: 1
+      - path: bones/root_jnt/l_cloud_jnt
+        weight: 1
+      - path: bones/root_jnt/r_cloud_jnt
+        weight: 1
+      - path: bones/root_jnt/train_jnt
+        weight: 1
+      - path: bones/root_jnt/train_jnt/train_jnt1
+        weight: 1
+      - path: bones/root_jnt/train_jnt/train_jnt1/train_jnt2
+        weight: 1
+      - path: bones/root_jnt/train_jnt/train_jnt1/train_jnt2/train_jnt3
+        weight: 1
+      - path: bones/root_jnt/train_jnt/train_jnt1/train_jnt2/train_jnt3/train_jnt4
+        weight: 1
+      - path: bones/root_jnt/train_jnt/train_jnt1/train_jnt2/train_jnt3/train_jnt4/train_jnt5
+        weight: 1
+      - path: diorama_mesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 0
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

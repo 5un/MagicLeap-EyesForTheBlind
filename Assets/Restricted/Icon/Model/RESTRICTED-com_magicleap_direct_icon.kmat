@@ -1,0 +1,31 @@
+{
+	"global" : 
+	{
+		"albedo" : "Icon/Model/RESTRICTED-OutsidePortal_MagicKitLogo_Albedo.png",
+		"blendmode" : "Opaque",
+		"color" : 
+		[
+			1.0,
+			1.0,
+			1.0,
+			1.0
+		],
+		"shaderName" : "UnlitTextured"
+	},
+	"materials" : 
+	[
+		{
+			"albedo" : "Icon/Model/RESTRICTED-OutsidePortal_MagicKitLogo_Albedo.png",
+			"blendmode" : "Opaque",
+			"color" : 
+			[
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"name" : "com_magicleap_dodge_icon_mat",
+			"shaderName" : "UnlitTextured"
+		}
+	]
+}

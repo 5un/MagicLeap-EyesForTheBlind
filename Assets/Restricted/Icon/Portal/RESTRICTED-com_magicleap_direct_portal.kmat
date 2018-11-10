@@ -1,0 +1,31 @@
+{
+	"global" : 
+	{
+		"albedo" : "Icon/Portal/RESTRICTED-gradient1.png",
+		"blendmode" : "Opaque",
+		"color" : 
+		[
+			1.0,
+			1.0,
+			1.0,
+			1.0
+		],
+		"shaderName" : "UnlitTextured"
+	},
+	"materials" : 
+	[
+		{
+			"albedo" : "Icon/Portal/RESTRICTED-gradient1.png",
+			"blendmode" : "Opaque",
+			"color" : 
+			[
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"name" : "com_magicleap_dodge_portal_mat",
+			"shaderName" : "UnlitTextured"
+		}
+	]
+}

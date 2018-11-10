@@ -1,0 +1,645 @@
+fileFormatVersion: 2
+guid: 80022236d117bdd4c81c2f88e7fa8f54
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: City
+    100002: //RootNode
+    100004: Frame
+    100006: People
+    100008: Shadows
+    100010: Sky
+    100012: Terrain
+    100014: Transparent
+    100016: adult_head_jnt
+    100018: adult_hip_jnt
+    100020: adult_l_arm_jnt
+    100022: adult_l_elbow_jnt
+    100024: adult_l_foot_jnt
+    100026: adult_l_hand_jnt
+    100028: adult_l_knee_jnt
+    100030: adult_l_leg_jnt
+    100032: adult_r_arm_jnt
+    100034: adult_r_elbow_jnt
+    100036: adult_r_foot_jnt
+    100038: adult_r_hand_jnt
+    100040: adult_r_knee_jnt
+    100042: adult_r_leg_jnt
+    100044: adult_root_jnt
+    100046: child_head_jnt
+    100048: child_hip_jnt
+    100050: child_l_arm_jnt
+    100052: child_l_elbow_jnt
+    100054: child_l_foot_jnt
+    100056: child_l_hand_jnt
+    100058: child_l_knee_jnt
+    100060: child_l_leg_jnt
+    100062: child_r_arm_jnt
+    100064: child_r_elbow_jnt
+    100066: child_r_foot_jnt
+    100068: child_r_hand_jnt
+    100070: child_r_knee_jnt
+    100072: child_r_leg_jnt
+    100074: child_root_jnt
+    100076: Diorama_Primary
+    100078: Diorama_Transparent
+    100080: front_monorail_jtn
+    100082: MaskFrame
+    100084: meteor_jnt
+    100086: rear_monorail_jnt
+    100088: robot_arm1_jnt
+    100090: robot_arm2_jnt
+    100092: robot_arm3_jnt
+    100094: robot_arm4_jnt
+    100096: robot_root_jnt
+    100098: robot_wheel1_jnt
+    100100: robot_wheel2_jnt
+    100102: robot_wheel3_jnt
+    100104: rocket1_jnt1
+    100106: rocket1_jnt2
+    100108: rocket1_smoke_jnt
+    100110: rocket2_jnt1
+    100112: rocket2_jnt2
+    100114: rocket2_smoke_jnt
+    100116: rocket3_jnt1
+    100118: rocket3_jnt2
+    100120: rocket3_smoke_jnt
+    100122: root_jnt
+    100124: satellite1_jnt
+    100126: satellite2_jnt
+    100128: Skeleton
+    100130: utility_car_jnt
+    100132: adult_l_finger
+    400000: City
+    400002: //RootNode
+    400004: Frame
+    400006: People
+    400008: Shadows
+    400010: Sky
+    400012: Terrain
+    400014: Transparent
+    400016: adult_head_jnt
+    400018: adult_hip_jnt
+    400020: adult_l_arm_jnt
+    400022: adult_l_elbow_jnt
+    400024: adult_l_foot_jnt
+    400026: adult_l_hand_jnt
+    400028: adult_l_knee_jnt
+    400030: adult_l_leg_jnt
+    400032: adult_r_arm_jnt
+    400034: adult_r_elbow_jnt
+    400036: adult_r_foot_jnt
+    400038: adult_r_hand_jnt
+    400040: adult_r_knee_jnt
+    400042: adult_r_leg_jnt
+    400044: adult_root_jnt
+    400046: child_head_jnt
+    400048: child_hip_jnt
+    400050: child_l_arm_jnt
+    400052: child_l_elbow_jnt
+    400054: child_l_foot_jnt
+    400056: child_l_hand_jnt
+    400058: child_l_knee_jnt
+    400060: child_l_leg_jnt
+    400062: child_r_arm_jnt
+    400064: child_r_elbow_jnt
+    400066: child_r_foot_jnt
+    400068: child_r_hand_jnt
+    400070: child_r_knee_jnt
+    400072: child_r_leg_jnt
+    400074: child_root_jnt
+    400076: Diorama_Primary
+    400078: Diorama_Transparent
+    400080: front_monorail_jtn
+    400082: MaskFrame
+    400084: meteor_jnt
+    400086: rear_monorail_jnt
+    400088: robot_arm1_jnt
+    400090: robot_arm2_jnt
+    400092: robot_arm3_jnt
+    400094: robot_arm4_jnt
+    400096: robot_root_jnt
+    400098: robot_wheel1_jnt
+    400100: robot_wheel2_jnt
+    400102: robot_wheel3_jnt
+    400104: rocket1_jnt1
+    400106: rocket1_jnt2
+    400108: rocket1_smoke_jnt
+    400110: rocket2_jnt1
+    400112: rocket2_jnt2
+    400114: rocket2_smoke_jnt
+    400116: rocket3_jnt1
+    400118: rocket3_jnt2
+    400120: rocket3_smoke_jnt
+    400122: root_jnt
+    400124: satellite1_jnt
+    400126: satellite2_jnt
+    400128: Skeleton
+    400130: utility_car_jnt
+    400132: adult_l_finger
+    2100000: Future_City_MAT
+    2100002: Future_Frame_MAT
+    2100004: Future_People_MAT
+    2100006: Future_Shadow_MAT
+    2100008: Future_Sky_MAT
+    2100010: Future_Terrain_MAT
+    2100012: Future_Transparent_MAT
+    2100014: Future_Mask_Mat
+    2100016: Future_Smoke_Mat
+    2300000: City
+    2300002: Frame
+    2300004: People
+    2300006: Shadows
+    2300008: Sky
+    2300010: Terrain
+    2300012: Transparent
+    2300014: Diorama_Primary
+    2300016: Diorama_Transparent
+    2300018: MaskFrame
+    3300000: City
+    3300002: Frame
+    3300004: People
+    3300006: Shadows
+    3300008: Sky
+    3300010: Terrain
+    3300012: Transparent
+    3300014: Diorama_Primary
+    3300016: Diorama_Transparent
+    3300018: MaskFrame
+    4300000: City
+    4300002: Frame
+    4300004: People
+    4300006: Shadows
+    4300008: Sky
+    4300010: Terrain
+    4300012: Transparent
+    4300014: MaskFrame
+    4300016: Diorama_Transparent
+    4300018: Diorama_Primary
+    7400000: Contract
+    7400002: Expand
+    7400004: Scene Active
+    9500000: //RootNode
+    13700000: Diorama_Primary
+    13700002: Diorama_Transparent
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Future_City_MAT
+    second: {fileID: 2100000, guid: c00b34f2e06fc404e9b7443036991187, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Future_Frame_MAT
+    second: {fileID: 2100000, guid: 8a87d9be057e4f348ba366bff3c9adfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Future_Mask_Mat
+    second: {fileID: 2100000, guid: ed850acb39053ae48ae4e7ea1125c262, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Future_People_MAT
+    second: {fileID: 2100000, guid: 707c67b6f21ad2942a09467c6cfbb81f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Future_Shadow_MAT
+    second: {fileID: 2100000, guid: ce735ed86e283124083c0d35c6b62d10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Future_Sky_MAT
+    second: {fileID: 2100000, guid: 0d856a43d3916e740ac3e1157b18b13c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Future_Smoke_Mat
+    second: {fileID: 2100000, guid: 9192b770125f52049b968d7ad4d61ba6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Future_Terrain_MAT
+    second: {fileID: 2100000, guid: b73337dc156bf0e46b3e666b3d6248d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Future_Transparent_MAT
+    second: {fileID: 2100000, guid: 7544d029c278f4c40a9ed3c658d024fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 86c3a3dc483d5ae4aa1ad0ecb408e6b0, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.1
+    animationPositionError: 0.1
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Contract
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Diorama_Primary
+        weight: 1
+      - path: Diorama_Transparent
+        weight: 1
+      - path: MaskFrame
+        weight: 1
+      - path: Skeleton
+        weight: 0
+      - path: Skeleton/root_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt/adult_hip_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt/adult_hip_jnt/adult_head_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt/adult_hip_jnt/adult_l_arm_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt/adult_hip_jnt/adult_l_arm_jnt/adult_l_elbow_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt/adult_hip_jnt/adult_l_arm_jnt/adult_l_elbow_jnt/adult_l_hand_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt/adult_hip_jnt/adult_l_arm_jnt/adult_l_elbow_jnt/adult_l_hand_jnt/adult_l_finger
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt/adult_hip_jnt/adult_r_arm_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt/adult_hip_jnt/adult_r_arm_jnt/adult_r_elbow_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt/adult_hip_jnt/adult_r_arm_jnt/adult_r_elbow_jnt/adult_r_hand_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt/adult_l_leg_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt/adult_l_leg_jnt/adult_l_knee_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt/adult_l_leg_jnt/adult_l_knee_jnt/adult_l_foot_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt/adult_r_leg_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt/adult_r_leg_jnt/adult_r_knee_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt/adult_r_leg_jnt/adult_r_knee_jnt/adult_r_foot_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/child_root_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/child_root_jnt/child_hip_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/child_root_jnt/child_hip_jnt/child_head_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/child_root_jnt/child_hip_jnt/child_l_arm_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/child_root_jnt/child_hip_jnt/child_l_arm_jnt/child_l_elbow_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/child_root_jnt/child_hip_jnt/child_l_arm_jnt/child_l_elbow_jnt/child_l_hand_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/child_root_jnt/child_hip_jnt/child_r_arm_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/child_root_jnt/child_hip_jnt/child_r_arm_jnt/child_r_elbow_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/child_root_jnt/child_hip_jnt/child_r_arm_jnt/child_r_elbow_jnt/child_r_hand_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/child_root_jnt/child_l_leg_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/child_root_jnt/child_l_leg_jnt/child_l_knee_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/child_root_jnt/child_l_leg_jnt/child_l_knee_jnt/child_l_foot_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/child_root_jnt/child_r_leg_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/child_root_jnt/child_r_leg_jnt/child_r_knee_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/child_root_jnt/child_r_leg_jnt/child_r_knee_jnt/child_r_foot_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/front_monorail_jtn
+        weight: 0
+      - path: Skeleton/root_jnt/meteor_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/rear_monorail_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/robot_root_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/robot_root_jnt/robot_arm1_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/robot_root_jnt/robot_arm1_jnt/robot_arm2_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/robot_root_jnt/robot_arm1_jnt/robot_arm2_jnt/robot_arm3_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/robot_root_jnt/robot_arm1_jnt/robot_arm2_jnt/robot_arm3_jnt/robot_arm4_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/robot_root_jnt/robot_wheel1_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/robot_root_jnt/robot_wheel2_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/robot_root_jnt/robot_wheel3_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/rocket1_jnt1
+        weight: 0
+      - path: Skeleton/root_jnt/rocket1_jnt1/rocket1_jnt2
+        weight: 0
+      - path: Skeleton/root_jnt/rocket1_smoke_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/rocket2_jnt1
+        weight: 0
+      - path: Skeleton/root_jnt/rocket2_jnt1/rocket2_jnt2
+        weight: 0
+      - path: Skeleton/root_jnt/rocket2_smoke_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/rocket3_jnt1
+        weight: 0
+      - path: Skeleton/root_jnt/rocket3_jnt1/rocket3_jnt2
+        weight: 0
+      - path: Skeleton/root_jnt/rocket3_smoke_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/satellite1_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/satellite2_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/utility_car_jnt
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Expand
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: ExpandEnd
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Diorama_Primary
+        weight: 1
+      - path: Diorama_Transparent
+        weight: 1
+      - path: MaskFrame
+        weight: 1
+      - path: Skeleton
+        weight: 0
+      - path: Skeleton/root_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt/adult_hip_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt/adult_hip_jnt/adult_head_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt/adult_hip_jnt/adult_l_arm_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt/adult_hip_jnt/adult_l_arm_jnt/adult_l_elbow_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt/adult_hip_jnt/adult_l_arm_jnt/adult_l_elbow_jnt/adult_l_hand_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt/adult_hip_jnt/adult_r_arm_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt/adult_hip_jnt/adult_r_arm_jnt/adult_r_elbow_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt/adult_hip_jnt/adult_r_arm_jnt/adult_r_elbow_jnt/adult_r_hand_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt/adult_l_leg_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt/adult_l_leg_jnt/adult_l_knee_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt/adult_l_leg_jnt/adult_l_knee_jnt/adult_l_foot_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt/adult_r_leg_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt/adult_r_leg_jnt/adult_r_knee_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/adult_root_jnt/adult_r_leg_jnt/adult_r_knee_jnt/adult_r_foot_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/child_root_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/child_root_jnt/child_hip_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/child_root_jnt/child_hip_jnt/child_head_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/child_root_jnt/child_hip_jnt/child_l_arm_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/child_root_jnt/child_hip_jnt/child_l_arm_jnt/child_l_elbow_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/child_root_jnt/child_hip_jnt/child_l_arm_jnt/child_l_elbow_jnt/child_l_hand_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/child_root_jnt/child_hip_jnt/child_r_arm_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/child_root_jnt/child_hip_jnt/child_r_arm_jnt/child_r_elbow_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/child_root_jnt/child_hip_jnt/child_r_arm_jnt/child_r_elbow_jnt/child_r_hand_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/child_root_jnt/child_l_leg_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/child_root_jnt/child_l_leg_jnt/child_l_knee_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/child_root_jnt/child_l_leg_jnt/child_l_knee_jnt/child_l_foot_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/child_root_jnt/child_r_leg_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/child_root_jnt/child_r_leg_jnt/child_r_knee_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/child_root_jnt/child_r_leg_jnt/child_r_knee_jnt/child_r_foot_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/front_monorail_jtn
+        weight: 0
+      - path: Skeleton/root_jnt/meteor_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/rear_monorail_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/robot_root_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/robot_root_jnt/robot_arm1_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/robot_root_jnt/robot_arm1_jnt/robot_arm2_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/robot_root_jnt/robot_arm1_jnt/robot_arm2_jnt/robot_arm3_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/robot_root_jnt/robot_arm1_jnt/robot_arm2_jnt/robot_arm3_jnt/robot_arm4_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/robot_root_jnt/robot_wheel1_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/robot_root_jnt/robot_wheel2_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/robot_root_jnt/robot_wheel3_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/rocket1_jnt1
+        weight: 0
+      - path: Skeleton/root_jnt/rocket1_jnt1/rocket1_jnt2
+        weight: 0
+      - path: Skeleton/root_jnt/rocket1_smoke_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/rocket2_jnt1
+        weight: 0
+      - path: Skeleton/root_jnt/rocket2_jnt1/rocket2_jnt2
+        weight: 0
+      - path: Skeleton/root_jnt/rocket2_smoke_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/rocket3_jnt1
+        weight: 0
+      - path: Skeleton/root_jnt/rocket3_jnt1/rocket3_jnt2
+        weight: 0
+      - path: Skeleton/root_jnt/rocket3_smoke_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/satellite1_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/satellite2_jnt
+        weight: 0
+      - path: Skeleton/root_jnt/utility_car_jnt
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Scene Active
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 1800
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 0
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

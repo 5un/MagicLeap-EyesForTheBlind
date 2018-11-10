@@ -1,0 +1,6 @@
+Lomino Font (Copyright (c) 2017 Magic Leap, Inc.)
+The Lomino font in all file formats (e.g., .TFF, .uasset or other) is made available as a “Restricted Asset” as defined in the Magic Leap Creator Agreement.
+
+The Leaper logo in all file formats in made available as a “Restricted Asset” as defined in the Magic Leap Creator Agreement.
+
+All materials in the Restricted folder are made available as “Restricted Assets” as defined in the Magic Leap Creator Agreement.

@@ -1,0 +1,382 @@
+fileFormatVersion: 2
+guid: 0b2fc79ced2b30d4f8fcfd60e3c01973
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: cube1_jnt
+    100002: cube2_jnt
+    100004: cube3_jnt
+    100006: cube4_jnt
+    100008: cube5_jnt
+    100010: cube6_jnt
+    100012: cube7_jnt
+    100014: cube8_jnt
+    100016: CubeRotate
+    100018: CubeTransform
+    100020: directionalLight1
+    100022: directionalLight2
+    100024: dividerLine
+    100026: driveText
+    100028: inner
+    100030: InteractionCube1
+    100032: InteractionCube2
+    100034: InteractionCube3
+    100036: lessonInteractionMASKS
+    100038: lessonInteractions
+    100040: lessonTextMASK
+    100042: LogoCube
+    100044: logoCubeMASK
+    100046: //RootNode
+    100048: magicKitText
+    100050: pCube20
+    100052: pCube21
+    100054: pCube22
+    100056: pPlane1
+    100058: pPlane2
+    100060: pPlane3
+    100062: root_jnt
+    100064: RotateOffset
+    100066: typeMesh3
+    100068: typeMesh4
+    100070: typeMesh5
+    100072: wireframeBox
+    100074: LessonObjectives
+    100076: Objective1
+    100078: Objective2
+    100080: Objective3
+    100082: ObjectiveIcon
+    100084: ObjectiveIcon 1
+    100086: ObjectiveIcon 2
+    100088: ObjectiveMasks
+    100090: Mask1
+    100092: Mask2
+    100094: Mask3
+    400000: cube1_jnt
+    400002: cube2_jnt
+    400004: cube3_jnt
+    400006: cube4_jnt
+    400008: cube5_jnt
+    400010: cube6_jnt
+    400012: cube7_jnt
+    400014: cube8_jnt
+    400016: CubeRotate
+    400018: CubeTransform
+    400020: directionalLight1
+    400022: directionalLight2
+    400024: dividerLine
+    400026: driveText
+    400028: inner
+    400030: InteractionCube1
+    400032: InteractionCube2
+    400034: InteractionCube3
+    400036: lessonInteractionMASKS
+    400038: lessonInteractions
+    400040: lessonTextMASK
+    400042: LogoCube
+    400044: logoCubeMASK
+    400046: //RootNode
+    400048: magicKitText
+    400050: pCube20
+    400052: pCube21
+    400054: pCube22
+    400056: pPlane1
+    400058: pPlane2
+    400060: pPlane3
+    400062: root_jnt
+    400064: RotateOffset
+    400066: typeMesh3
+    400068: typeMesh4
+    400070: typeMesh5
+    400072: wireframeBox
+    400074: LessonObjectives
+    400076: Objective1
+    400078: Objective2
+    400080: Objective3
+    400082: ObjectiveIcon
+    400084: ObjectiveIcon 1
+    400086: ObjectiveIcon 2
+    400088: ObjectiveMasks
+    400090: Mask1
+    400092: Mask2
+    400094: Mask3
+    2100000: White
+    2100002: White1
+    2100004: MagicKitTextMAT
+    2100006: surfaceShader1
+    2100008: Green1
+    2100010: surfaceShader2
+    2100012: Icons
+    2100014: LightBlue
+    2100016: Pink
+    2100018: Blocker1
+    2100020: Blocker2
+    2100022: Blocker3
+    2100024: LogoCube_MAT
+    2100026: Objective1Color
+    2100028: Objective2Color
+    2100030: Objective3Color
+    2100032: WireframeCubeTransp
+    2300000: dividerLine
+    2300002: driveText
+    2300004: inner
+    2300006: InteractionCube1
+    2300008: InteractionCube2
+    2300010: InteractionCube3
+    2300012: lessonTextMASK
+    2300014: logoCubeMASK
+    2300016: magicKitText
+    2300018: pCube20
+    2300020: pCube21
+    2300022: pCube22
+    2300024: pPlane1
+    2300026: pPlane2
+    2300028: pPlane3
+    2300030: typeMesh3
+    2300032: typeMesh4
+    2300034: typeMesh5
+    2300036: wireframeBox
+    2300038: Objective1
+    2300040: Objective2
+    2300042: Objective3
+    2300044: ObjectiveIcon
+    2300046: ObjectiveIcon 1
+    2300048: ObjectiveIcon 2
+    2300050: Mask1
+    2300052: Mask2
+    2300054: Mask3
+    3300000: dividerLine
+    3300002: driveText
+    3300004: inner
+    3300006: InteractionCube1
+    3300008: InteractionCube2
+    3300010: InteractionCube3
+    3300012: lessonTextMASK
+    3300014: logoCubeMASK
+    3300016: magicKitText
+    3300018: pCube20
+    3300020: pCube21
+    3300022: pCube22
+    3300024: pPlane1
+    3300026: pPlane2
+    3300028: pPlane3
+    3300030: typeMesh3
+    3300032: typeMesh4
+    3300034: typeMesh5
+    3300036: wireframeBox
+    3300038: Objective1
+    3300040: Objective2
+    3300042: Objective3
+    3300044: ObjectiveIcon
+    3300046: ObjectiveIcon 1
+    3300048: ObjectiveIcon 2
+    3300050: Mask1
+    3300052: Mask2
+    3300054: Mask3
+    4300000: wireframeBox
+    4300002: inner
+    4300004: magicKitText
+    4300006: logoCubeMASK
+    4300008: dividerLine
+    4300010: lessonTextMASK
+    4300012: InteractionCube1
+    4300014: typeMesh3
+    4300016: pPlane1
+    4300018: InteractionCube2
+    4300020: pPlane2
+    4300022: typeMesh4
+    4300024: InteractionCube3
+    4300026: pPlane3
+    4300028: typeMesh5
+    4300030: pCube20
+    4300032: pCube21
+    4300034: pCube22
+    4300036: driveText
+    4300038: LogoCube
+    4300040: Objective1
+    4300042: ObjectiveIcon
+    4300044: Objective2
+    4300046: ObjectiveIcon
+    4300048: Objective3
+    4300050: ObjectiveIcon
+    4300052: Mask1
+    4300054: Mask2
+    4300056: Mask3
+    7400000: LogoIntro
+    9500000: //RootNode
+    10800000: directionalLight1
+    10800002: directionalLight2
+    13700000: LogoCube
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blocker1
+    second: {fileID: 2100000, guid: 801cc9f047d4ea7429d6027070799c0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blocker2
+    second: {fileID: 2100000, guid: aee13d91e175b424ba2e78d2a54bb5b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blocker3
+    second: {fileID: 2100000, guid: a53252d849fab274c851b7ba9b43e20a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Icons
+    second: {fileID: 2100000, guid: 774885f74bda5aa478594c9053189f42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LogoCube_MAT
+    second: {fileID: 2100000, guid: 8b611d3241d268a429e892caf1e9d669, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MagicKitTextMAT
+    second: {fileID: 2100000, guid: c2d78ef83211b7941959d2d584ddf808, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Objective1Color
+    second: {fileID: 2100000, guid: fb4a7b736b6782b48ae29be140740255, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Objective2Color
+    second: {fileID: 2100000, guid: 59cca50a158ca1b49b728917890d0370, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Objective3Color
+    second: {fileID: 2100000, guid: cd16449eceeda594b964449017dd3a02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White1
+    second: {fileID: 2100000, guid: 28d0fa1781136b64aa624362fc4efa5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WireframeCubeTransp
+    second: {fileID: 2100000, guid: 28d0fa1781136b64aa624362fc4efa5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: surfaceShader1
+    second: {fileID: 2100000, guid: 074a8b2d4b2a1454f8dff4413ef966da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: surfaceShader2
+    second: {fileID: 2100000, guid: a373ccca36775f34bb1c6861e5e0c242, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: LogoIntro
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 186
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

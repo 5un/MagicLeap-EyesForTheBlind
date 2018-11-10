@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Restricted/MagicKit_Logo/Scenes/MagicKit_Logo_Direct.unity
+    guid: d5ecc1436dc50324a9c6ddaaf4a42290
+  - enabled: 0
+    path: Assets/Direct/Scenes/Direct.unity
+    guid: d48d0529fba274546ad285ef82274884
+  - enabled: 0
+    path: Assets/Direct/Scenes/Direct_mod.unity
+    guid: 8b7433ead885aa14f9f96ecb4115a9a4
+  - enabled: 0
+    path: Assets/MagicLeap/Examples/Scenes/Meshing.unity
+    guid: 867506c3cbb29bc42a71d236fbd415c2
+  - enabled: 0
+    path: Assets/MagicLeap/Examples/Scenes/Raycast.unity
+    guid: 6c94c849b074e2c4883092293f337b1f
+  - enabled: 1
+    path: Assets/A11Y/MeshingDemo.unity
+    guid: 2d8ccca1300751243b34c05f8f3fd037
+  m_configObjects: {}

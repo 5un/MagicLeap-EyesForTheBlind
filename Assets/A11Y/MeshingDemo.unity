@@ -715,6 +715,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1532296884}
   - component: {fileID: 1532296888}
+  - component: {fileID: 1532296886}
+  - component: {fileID: 1532296885}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -735,6 +737,35 @@ Transform:
   m_Father: {fileID: 1731829235}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1532296885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1532296883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1482117547, guid: 76117edccecfa334bbc1ceb13d2b649f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ControlLF: 200
+  m_ControlMF: 1000
+  m_ControlHF: 5000
+  m_RoomGain: 1
+  m_ReflectionsGain: 0.24999999
+  m_ReflectionsDelay: 0.01
+  m_ReverbGain: 0.16
+  m_ReverbDelay: 0.03
+  m_ReverbDecayTime: 0.7
+  m_ReverbDecayLFRatio: 1
+  m_ReverbDecayHFRatio: 0.6
+--- !u!81 &1532296886
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1532296883}
+  m_Enabled: 1
 --- !u!20 &1532296888
 Camera:
   m_ObjectHideFlags: 0
@@ -963,7 +994,7 @@ MonoBehaviour:
   _visualBounds: {fileID: 333912032}
   _bounded: 0
   _statusLabel: {fileID: 2066349677}
-  _shootingPrefab: {fileID: 1768872223544792, guid: 0b46e96b48f596a4abe7013197e2fe8f,
+  _shootingPrefab: {fileID: 1870508643252662, guid: 842d88298fea38c4db49a8b48015fd46,
     type: 2}
   _controllerConnectionHandler: {fileID: 1747550480}
 --- !u!114 &1813943455

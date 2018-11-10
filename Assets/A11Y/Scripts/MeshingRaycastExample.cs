@@ -203,7 +203,7 @@ namespace MagicLeap
 
                 ball.SetActive(true);
                 // float ballsize = Random.Range(MIN_BALL_SIZE, MAX_BALL_SIZE);
-                float ballSize = 1.0f;
+                float ballsize = 1.0f;
                 ball.transform.localScale = new Vector3(ballsize, ballsize, ballsize);
                 // ball.transform.position = _camera.gameObject.transform.position;
 
@@ -217,6 +217,12 @@ namespace MagicLeap
 
                 rigidBody.isKinematic = true;
                 rigidBody.detectCollisions = false;
+
+                AudioSource audioSource = gameObject.AddComponent<AudioSource>();
+                audioSource.clip = Resources.Load("A11Y/Media/beep-07") as AudioClip;
+                audioSource.Play();
+
+                
 
                 // Disable force
                 // rigidBody.AddForce(_camera.gameObject.transform.forward * SHOOTING_FORCE);

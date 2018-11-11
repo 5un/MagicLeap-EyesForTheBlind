@@ -71,6 +71,7 @@ GameObject:
   - component: {fileID: 4200879178733298}
   - component: {fileID: 82085637885896946}
   - component: {fileID: 114731910366764228}
+  - component: {fileID: 114089087421361182}
   m_Layer: 0
   m_Name: AudioSource
   m_TagString: Untagged
@@ -86,6 +87,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4523275070815166}
+  - component: {fileID: 114885071058839100}
   m_Layer: 0
   m_Name: SoundBeacon
   m_TagString: Untagged
@@ -255,7 +257,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e7188233af0a44644baddbf2cde83845, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -264,11 +266,11 @@ AudioSource:
   Spatialize: 1
   SpatializePostEffects: 0
   Priority: 128
-  DopplerLevel: 0
+  DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -341,6 +343,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &114089087421361182
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1826696810787058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26646272a4db8d745a0f701b945fed7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frequency: 440
+  gain: 2
 --- !u!114 &114731910366764228
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -371,6 +386,17 @@ MonoBehaviour:
   m_RoomGainLF: 1
   m_RoomGainMF: 1
   m_RoomGainHF: 1
+--- !u!114 &114885071058839100
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1870508643252662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d991fa6f8ad06845abea609ef27c3fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &135864361075446046
 SphereCollider:
   m_ObjectHideFlags: 1

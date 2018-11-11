@@ -52,6 +52,7 @@ namespace MagicLeap
         private static readonly Vector3 _boundedExtentsSize = new Vector3(2.0f, 2.0f, 2.0f);
         private static readonly Vector3 _boundlessExtentsSize = new Vector3(10.0f, 10.0f, 10.0f);
 
+        // private const float SHOOTING_FORCE = 300.0f;
         private const float SHOOTING_FORCE = 300.0f;
         private const float MIN_BALL_SIZE = 0.2f;
         private const float MAX_BALL_SIZE = 0.5f;
@@ -203,7 +204,7 @@ namespace MagicLeap
 
                 ball.SetActive(true);
                 // float ballsize = Random.Range(MIN_BALL_SIZE, MAX_BALL_SIZE);
-                float ballsize = 1.0f;
+                float ballsize = 0.1f;
                 ball.transform.localScale = new Vector3(ballsize, ballsize, ballsize);
                 // ball.transform.position = _camera.gameObject.transform.position;
 
@@ -215,17 +216,17 @@ namespace MagicLeap
                     rigidBody = ball.AddComponent<Rigidbody>();
                 }
 
-                rigidBody.isKinematic = true;
-                rigidBody.detectCollisions = false;
+                // rigidBody.isKinematic = true;
+                // rigidBody.detectCollisions = false;
+                rigidBody.useGravity = false;
 
-                AudioSource audioSource = gameObject.AddComponent<AudioSource>();
-                audioSource.clip = Resources.Load("A11Y/Media/beep-07") as AudioClip;
-                audioSource.Play();
+                // AudioSource audioSource = gameObject.AddComponent<AudioSource>();
+                // audioSource.clip = Resources.Load("A11Y/Media/beep-07") as AudioClip;
+                // audioSource.Play();
 
                 
-
                 // Disable force
-                // rigidBody.AddForce(_camera.gameObject.transform.forward * SHOOTING_FORCE);
+                rigidBody.AddForce(_camera.gameObject.transform.forward * SHOOTING_FORCE);
 
                 Destroy(ball, BALL_LIFE_TIME);
             }

@@ -28,16 +28,16 @@
   },
   {
    "compression": 8,
-   "hash": "c521279a6377c4fd5b19047d8b7fa52620b25782",
+   "hash": "95f65858550d4f9f8f5d05a7994b040e5e5a74ab",
    "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
-   "size": 5508176,
+   "size": 5509048,
    "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
   },
   {
    "compression": 8,
-   "hash": "bcfbe4ba004792cef48e8e3afb63a3ac3fcb9de6",
+   "hash": "92cf83991840fb24095c6aab84ae864c5e4e9c87",
    "pkgpath": "bin/libil2cpp.so",
-   "size": 63558592,
+   "size": 63561584,
    "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/Native/libil2cpp.so",
    "xfrm_flags": {
     "signed": {
@@ -48,9 +48,9 @@
      "version": 3
     }
    },
-   "xfrm_hash": "ec15603dcb265ebc9687d21e1669d92f98c39078",
+   "xfrm_hash": "d7886b8a740607e33b84bc5270fc0940ed9b665d",
    "xfrm_path": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/.out/.cache/release_lumin_clang-3.8_aarch64/com.magicleap.raycast-729591c61ce3457c\\libil2cpp.so-f7f629d877a96879",
-   "xfrm_size": 63559350
+   "xfrm_size": 63562342
   },
   {
    "compression": 8,
@@ -186,7 +186,7 @@
   },
   {
    "compression": 8,
-   "hash": "584f2106dc0f7c813096e8057435081e48a17e5b",
+   "hash": "a6185699fdca7e626c2b6550e476976acea6b58f",
    "pkgpath": "Data/a6314524bbc12714291c89e0597e1e5f",
    "size": 4224,
    "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/a6314524bbc12714291c89e0597e1e5f"
@@ -200,28 +200,28 @@
   },
   {
    "compression": 8,
-   "hash": "a5b45ea3485759a4f22f387c10b04602035a81a2",
+   "hash": "514bd5eb3ba955ba6fb616c0cc1853f1b85ca3af",
    "pkgpath": "Data/d18f2c2c98fedbf4e9c4f4f42e41447d",
    "size": 4224,
    "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/d18f2c2c98fedbf4e9c4f4f42e41447d"
   },
   {
    "compression": 8,
-   "hash": "b97e60ee3d0351a67c59be1084600f55e6d8c445",
+   "hash": "4343b7f6df478b1a1f1bffa60ae44bd850c9a4c4",
    "pkgpath": "Data/globalgamemanagers",
-   "size": 35116,
+   "size": 35204,
    "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/globalgamemanagers"
   },
   {
    "compression": 8,
-   "hash": "bd26b5079455908596f7760a871b6295a13d4c79",
+   "hash": "22746b1421a40d873d2abe10f465b34ae5f822cc",
    "pkgpath": "Data/globalgamemanagers.assets",
-   "size": 42576,
+   "size": 42792,
    "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/globalgamemanagers.assets"
   },
   {
    "compression": 8,
-   "hash": "b82b4471d2062147c051fb903ac1edaa5e48c798",
+   "hash": "80aa7eb4d6ce4238cfb8deab2d65ffbfbea7c42a",
    "pkgpath": "Data/level0",
    "size": 10528,
    "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/level0"
@@ -235,9 +235,9 @@
   },
   {
    "compression": 8,
-   "hash": "bd21a5e75c49ce966bb5ae191c8b5b10eec6012e",
+   "hash": "f8e7f6758f6cc8af86f7d261677fb559127d40ec",
    "pkgpath": "Data/sharedassets0.assets",
-   "size": 840372,
+   "size": 840416,
    "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/sharedassets0.assets"
   },
   {
@@ -246,13 +246,6 @@
    "pkgpath": "Data/sharedassets0.assets.resS",
    "size": 20000,
    "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/sharedassets0.assets.resS"
-  },
-  {
-   "compression": 8,
-   "hash": "fef9c88da1f914bd53f1e35e40179030393e82a9",
-   "pkgpath": "Data/sharedassets0.resource",
-   "size": 1440,
-   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/sharedassets0.resource"
   },
   {
    "compression": 8,

@@ -273,6 +273,11 @@ PlayerSettings:
     m_Enabled: 1
     m_Devices:
     - Lumin
+  - m_BuildTarget: Standalone
+    m_Enabled: 1
+    m_Devices:
+    - Oculus
+    - OpenVR
   m_BuildTargetEnableVuforiaSettings: []
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
@@ -647,6 +652,7 @@ PlayerSettings:
   - GesturesSubscribe
   - GesturesConfig
   - WorldReconstruction
+  - CameraCapture
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 3
   cloudProjectId: 

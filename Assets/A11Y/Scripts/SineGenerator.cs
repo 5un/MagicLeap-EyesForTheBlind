@@ -18,9 +18,14 @@ public class SineGenerator : MonoBehaviour
             phase = phase + increment;
             // this is where we copy audio data to make them “available” to Unity
             data[i] = (float)(gain * Math.Sin(phase));
+            
             // if we have stereo, we copy the mono data to each channel
             if (channels == 2) data[i+1] = data[i];
             if (phase > 2 * Math.PI) phase = 0;
         }
     }
+
+
+
+
 }

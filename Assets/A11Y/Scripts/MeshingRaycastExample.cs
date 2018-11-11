@@ -15,6 +15,12 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.XR.MagicLeap;
+using System.Collections;
+using System.Collections.Generic;
+
+using Clarifai.API;
+using Clarifai.DTOs.Inputs;
+using Clarifai.DTOs.Predictions;
 
 namespace MagicLeap
 {
@@ -52,15 +58,21 @@ namespace MagicLeap
         private static readonly Vector3 _boundedExtentsSize = new Vector3(2.0f, 2.0f, 2.0f);
         private static readonly Vector3 _boundlessExtentsSize = new Vector3(10.0f, 10.0f, 10.0f);
 
-        // private const float SHOOTING_FORCE = 300.0f;
         private const float SHOOTING_FORCE = 300.0f;
+        // private const float SHOOTING_FORCE = 1.0f;
         private const float MIN_BALL_SIZE = 0.2f;
         private const float MAX_BALL_SIZE = 0.5f;
         private const int BALL_LIFE_TIME = 10;
 
         private Camera _camera;
+        private float targetDistance = 0f;
 
         private Vector3 meshTargetPoint;
+        private int worldMeshVertexCount;
+        private List<WorldRaycastSphereSample> worldRaycastSphereSamples;
+
+        private float beaconCooldown = 0.5f;
+        private float timeSinceLastBeacon = 0f;
         #endregion
 
         #region Unity Methods
@@ -113,6 +125,9 @@ namespace MagicLeap
             MLInput.OnControllerButtonDown += OnButtonDown;
             MLInput.OnTriggerDown += OnTriggerDown;
             MLInput.OnControllerTouchpadGestureStart += OnTouchpadGestureStart;
+
+            ClarifaiClient client = new ClarifaiClient("14bbccb6e9e644e0a16f96ef9ba3a22f");
+            // client.
         }
 
         /// <summary>
@@ -135,6 +150,20 @@ namespace MagicLeap
         void Update()
         {
             _mlSpatialMapper.gameObject.transform.position = _camera.gameObject.transform.position;
+
+            // worldMeshVertexCount = _mlSpatialMapper.meshPrefab.GetComponent<MeshFilter>().mesh.vertexCount;
+            // UpdateStatusText();
+
+            // Do the scan thing
+            //_mlSpatialMapper.
+
+            timeSinceLastBeacon += Time.deltaTime;
+            if(timeSinceLastBeacon > beaconCooldown)
+            {
+                PlaceOneBeacon(_camera.transform.forward);
+                timeSinceLastBeacon = 0;
+            } 
+
         }
 
         /// <summary>
@@ -154,7 +183,10 @@ namespace MagicLeap
         /// </summary>
         private void UpdateStatusText()
         {
-            _statusLabel.text = string.Format("Render Mode: {0}\nBounded Extents: {1}\nLOD: {2}", _renderMode.ToString(),
+            _statusLabel.text = string.Format("Dist: {0}\nVertexCount: {1}\nRender Mode: {2}\nBounded Extents: {3}\nLOD: {4}", 
+                                                                                                    targetDistance,
+                                                                                                     worldMeshVertexCount,
+                                                                                                    _renderMode.ToString(),
                                                                                                   _bounded.ToString(),
                                                                                                   _mlSpatialMapper.levelOfDetail);
         }
@@ -187,7 +219,6 @@ namespace MagicLeap
                 UpdateStatusText();
             }
         }
-
         /// <summary>
         /// Handles the event for trigger down. Throws a ball in the direction of
         /// the camera's forward vector.
@@ -198,38 +229,93 @@ namespace MagicLeap
         {
             if (_controllerConnectionHandler.IsControllerValid(controllerId))
             {
-                // TODO: Use pool object instead of instantiating new object on each trigger down.
-                // Create the ball and necessary components and shoot it along raycast.
-                GameObject ball = Instantiate(_shootingPrefab);
-
-                ball.SetActive(true);
-                // float ballsize = Random.Range(MIN_BALL_SIZE, MAX_BALL_SIZE);
-                float ballsize = 0.1f;
-                ball.transform.localScale = new Vector3(ballsize, ballsize, ballsize);
-                // ball.transform.position = _camera.gameObject.transform.position;
-
-                ball.transform.position = meshTargetPoint;
-
-                Rigidbody rigidBody = ball.GetComponent<Rigidbody>();
-                if (rigidBody == null)
-                {
-                    rigidBody = ball.AddComponent<Rigidbody>();
-                }
-
-                // rigidBody.isKinematic = true;
-                // rigidBody.detectCollisions = false;
-                rigidBody.useGravity = false;
-
-                // AudioSource audioSource = gameObject.AddComponent<AudioSource>();
-                // audioSource.clip = Resources.Load("A11Y/Media/beep-07") as AudioClip;
-                // audioSource.Play();
-
-                
-                // Disable force
-                rigidBody.AddForce(_camera.gameObject.transform.forward * SHOOTING_FORCE);
-
-                Destroy(ball, BALL_LIFE_TIME);
+                // ShootOneBeacon(_camera.gameObject.transform.forward);
+                // ShootMultipleBeacons(_camera.transform.forward, _camera.transform.up);
             }
+        }
+
+        private void ShootMultipleBeacons(Vector3 forwardDirection, Vector3 upDirection)
+        {
+
+            var rightVector = Vector3.Cross(forwardDirection, upDirection);
+            for (int i = -180; i < 180; i+=30)
+            {
+                Vector3 vector = Quaternion.AngleAxis(i, upDirection) * forwardDirection;
+                //Vector3 vector = Quaternion.Euler(new Vector3(0,i,0)) * forwardDirection;
+                ShootOneBeacon(vector);
+            }
+            //
+            
+        }
+
+        private void ShootOneBeacon(Vector3 direction)
+        {
+            // TODO: Use pool object instead of instantiating new object on each trigger down.
+            // Create the ball and necessary components and shoot it along raycast.
+            GameObject ball = Instantiate(_shootingPrefab);
+
+            ball.SetActive(true);
+            // float ballsize = Random.Range(MIN_BALL_SIZE, MAX_BALL_SIZE);
+            float ballsize = 0.5f;
+            ball.transform.localScale = new Vector3(ballsize, ballsize, ballsize);
+            ball.transform.position = _camera.gameObject.transform.position;
+
+            // ball.transform.position = meshTargetPoint;
+            targetDistance = Vector3.Distance(meshTargetPoint, _camera.gameObject.transform.position);
+
+            Rigidbody rigidBody = ball.GetComponent<Rigidbody>();
+            if (rigidBody == null)
+            {
+                rigidBody = ball.AddComponent<Rigidbody>();
+            }
+
+            // rigidBody.isKinematic = true;
+            // rigidBody.detectCollisions = false;
+            rigidBody.useGravity = false;
+
+            // AudioSource audioSource = gameObject.AddComponent<AudioSource>();
+            // audioSource.clip = Resources.Load("A11Y/Media/beep-07") as AudioClip;
+            // audioSource.Play();
+
+            // Disable force
+            rigidBody.AddForce(direction * SHOOTING_FORCE);
+
+            Destroy(ball, BALL_LIFE_TIME);
+            UpdateStatusText();
+        }
+
+        private void PlaceOneBeacon(Vector3 direction)
+        {
+            // TODO: Use pool object instead of instantiating new object on each trigger down.
+            // Create the ball and necessary components and shoot it along raycast.
+            GameObject ball = Instantiate(_shootingPrefab);
+
+            ball.SetActive(true);
+            // float ballsize = Random.Range(MIN_BALL_SIZE, MAX_BALL_SIZE);
+            float ballsize = 0.5f;
+            ball.transform.localScale = new Vector3(ballsize, ballsize, ballsize);
+            ball.transform.position = meshTargetPoint;
+
+            targetDistance = Vector3.Distance(meshTargetPoint, _camera.gameObject.transform.position);
+
+            Rigidbody rigidBody = ball.GetComponent<Rigidbody>();
+            if (rigidBody == null)
+            {
+                rigidBody = ball.AddComponent<Rigidbody>();
+            }
+
+            // rigidBody.isKinematic = true;
+            // rigidBody.detectCollisions = false;
+            rigidBody.useGravity = false;
+
+            // AudioSource audioSource = gameObject.AddComponent<AudioSource>();
+            // audioSource.clip = Resources.Load("A11Y/Media/beep-07") as AudioClip;
+            // audioSource.Play();
+
+            // Disable force
+
+            Destroy(ball, BALL_LIFE_TIME);
+            UpdateStatusText();
         }
 
         /// <summary>
@@ -259,7 +345,7 @@ namespace MagicLeap
         {
             // _confidence = confidence;
             // UpdateStatusText();
-
+            
             // result.point
             meshTargetPoint = result.point;
         }

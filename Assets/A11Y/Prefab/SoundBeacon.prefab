@@ -71,7 +71,7 @@ GameObject:
   - component: {fileID: 4200879178733298}
   - component: {fileID: 82085637885896946}
   - component: {fileID: 114731910366764228}
-  - component: {fileID: 114089087421361182}
+  - component: {fileID: 114496882462327862}
   m_Layer: 0
   m_Name: AudioSource
   m_TagString: Untagged
@@ -257,18 +257,18 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b238c39afef6a014aa8d7c5c0fee9984, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 1
   SpatializePostEffects: 0
   Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  DopplerLevel: 5
+  MinDistance: 0.5
+  MaxDistance: 2
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
@@ -343,19 +343,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &114089087421361182
+--- !u!114 &114496882462327862
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1826696810787058}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26646272a4db8d745a0f701b945fed7a, type: 3}
+  m_Script: {fileID: 11500000, guid: 04725fb568351bb4ba0996daccd1f2dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   frequency: 440
-  gain: 2
+  gain: 0.5
+  pulseFrequency: 4
 --- !u!114 &114731910366764228
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -397,6 +398,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d991fa6f8ad06845abea609ef27c3fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minPulseFrequency: 0.2
+  maxPulseFrequency: 8
+  pulseGenerator: {fileID: 114496882462327862}
+  cameraBoxSize: 2
+  maxPitch: 2000
+  minPitch: 500
 --- !u!135 &135864361075446046
 SphereCollider:
   m_ObjectHideFlags: 1

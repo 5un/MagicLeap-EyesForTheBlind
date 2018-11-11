@@ -628,15 +628,15 @@ Prefab:
       objectReference: {fileID: 234904009}
     - target: {fileID: 4486541323493368, guid: b6af97b52b3429641aa904690975fa80, type: 2}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 4486541323493368, guid: b6af97b52b3429641aa904690975fa80, type: 2}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 4486541323493368, guid: b6af97b52b3429641aa904690975fa80, type: 2}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 1434253475793312, guid: b6af97b52b3429641aa904690975fa80, type: 2}
       propertyPath: m_IsActive
@@ -975,6 +975,8 @@ GameObject:
   - component: {fileID: 1722072842}
   - component: {fileID: 1813943455}
   - component: {fileID: 1813943454}
+  - component: {fileID: 1813943457}
+  - component: {fileID: 1813943456}
   m_Layer: 0
   m_Name: MeshingRaycastExample
   m_TagString: Untagged
@@ -1016,6 +1018,35 @@ MonoBehaviour:
   _occlusionMaterial: {fileID: 2100000, guid: 5f7a8f815117efc428db87c9080e7cd0, type: 2}
   _wireframeMaterial: {fileID: 2100000, guid: 1a55190557520d846be14a6080e78893, type: 2}
   _pointCloudMaterial: {fileID: 2100000, guid: e21d105e99d24d74681aa12e14555049, type: 2}
+--- !u!114 &1813943456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1813943453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c890bdf354698ba429472b626542bcc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _privileges: 1a000000
+--- !u!114 &1813943457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1813943453}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18424b5dd8d88d141b1a4f0fea94507b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _controllerConnectionHandler: {fileID: 1747550480}
+  OnImageReceivedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: MagicLeap.ImageRecognizer+ImageCaptureEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &2066349675
 GameObject:
   m_ObjectHideFlags: 0

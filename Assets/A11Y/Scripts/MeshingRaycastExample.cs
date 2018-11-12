@@ -61,8 +61,8 @@ namespace MagicLeap
         private const float SHOOTING_FORCE = 300.0f;
         // private const float SHOOTING_FORCE = 1.0f;
         private const float MIN_BALL_SIZE = 0.2f;
-        private const float MAX_BALL_SIZE = 0.5f;
-        private const int BALL_LIFE_TIME = 10;
+        private const float MAX_BALL_SIZE = 0.1f;
+        private const int BALL_LIFE_TIME = 2;
 
         private Camera _camera;
         private float targetDistance = 0f;
@@ -73,6 +73,11 @@ namespace MagicLeap
 
         private float beaconCooldown = 0.5f;
         private float timeSinceLastBeacon = 0f;
+
+        private List<Vector3> existingBeaconCoords;
+
+        public AudioSource globalAudioSource;
+        // public Dist
         #endregion
 
         #region Unity Methods
@@ -140,7 +145,6 @@ namespace MagicLeap
             _mlSpatialMapper.gameObject.transform.position = _camera.gameObject.transform.position;
             _mlSpatialMapper.gameObject.transform.localScale = _bounded ? _boundedExtentsSize : _boundlessExtentsSize;
             _visualBounds.SetActive(_bounded);
-
             UpdateStatusText();
         }
 
@@ -231,6 +235,8 @@ namespace MagicLeap
             {
                 // ShootOneBeacon(_camera.gameObject.transform.forward);
                 // ShootMultipleBeacons(_camera.transform.forward, _camera.transform.up);
+                globalAudioSource.gameObject.transform.position = _camera.gameObject.transform.position;
+                globalAudioSource.Play();
             }
         }
 

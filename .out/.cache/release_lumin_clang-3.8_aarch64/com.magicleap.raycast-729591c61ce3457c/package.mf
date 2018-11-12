@@ -21,6 +21,90 @@
   },
   {
    "compression": 8,
+   "hash": "6935242f08f73002dffd1336e8ea7c8ecfb18789",
+   "pkgpath": "Data/024b3e4cbb386b84ba34079f450102f5",
+   "size": 4208,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/024b3e4cbb386b84ba34079f450102f5"
+  },
+  {
+   "compression": 8,
+   "hash": "3d30f83d4f058d22bb175588557c48856befed7c",
+   "pkgpath": "Data/024b3e4cbb386b84ba34079f450102f5.resource",
+   "size": 6240,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/024b3e4cbb386b84ba34079f450102f5.resource"
+  },
+  {
+   "compression": 8,
+   "hash": "6575297a3a7ab254814c9c26e8b83a8a2cb8ebba",
+   "pkgpath": "Data/1b7095308054c2043ba2a4e1c8b73753",
+   "size": 4204,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/1b7095308054c2043ba2a4e1c8b73753"
+  },
+  {
+   "compression": 8,
+   "hash": "af9d7a1a9d50914fdc514f34b28a6887cafb801a",
+   "pkgpath": "Data/1b7095308054c2043ba2a4e1c8b73753.resource",
+   "size": 3744,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/1b7095308054c2043ba2a4e1c8b73753.resource"
+  },
+  {
+   "compression": 8,
+   "hash": "61e22cc05992db2de634f4502e532c2e4a3536a3",
+   "pkgpath": "Data/2a68b14547740794ab79b167f7377e05",
+   "size": 4204,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/2a68b14547740794ab79b167f7377e05"
+  },
+  {
+   "compression": 8,
+   "hash": "24d87c6d9ffdc572aebcf2d7f37ce2a145137216",
+   "pkgpath": "Data/2a68b14547740794ab79b167f7377e05.resource",
+   "size": 5312,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/2a68b14547740794ab79b167f7377e05.resource"
+  },
+  {
+   "compression": 8,
+   "hash": "b323e7a416409e1f7871a65b5ec7fe3cd4ada163",
+   "pkgpath": "Data/36d2a9d97026a2f4c9b1bb61bd929ad1",
+   "size": 4204,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/36d2a9d97026a2f4c9b1bb61bd929ad1"
+  },
+  {
+   "compression": 8,
+   "hash": "7da9cc63a7214d32e5bb1bc196740d51fd70fedd",
+   "pkgpath": "Data/36d2a9d97026a2f4c9b1bb61bd929ad1.resource",
+   "size": 5664,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/36d2a9d97026a2f4c9b1bb61bd929ad1.resource"
+  },
+  {
+   "compression": 8,
+   "hash": "b9d0822b06d6385cce3605101aa16d2fa8e26998",
+   "pkgpath": "Data/3accd438ef3dab7488018d87b5a9b73d",
+   "size": 4204,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/3accd438ef3dab7488018d87b5a9b73d"
+  },
+  {
+   "compression": 8,
+   "hash": "1f571de877eb9d43761863488f6ee708c22f2934",
+   "pkgpath": "Data/3accd438ef3dab7488018d87b5a9b73d.resource",
+   "size": 5152,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/3accd438ef3dab7488018d87b5a9b73d.resource"
+  },
+  {
+   "compression": 8,
+   "hash": "1e50f931abd07d3f8c3ba1fb87bea4ba00cde362",
+   "pkgpath": "Data/3e21f1070dead134e8fedbeff7b8efc5",
+   "size": 4204,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/3e21f1070dead134e8fedbeff7b8efc5"
+  },
+  {
+   "compression": 8,
+   "hash": "d080920d27b47126c292fe11ff51de0e94c71930",
+   "pkgpath": "Data/3e21f1070dead134e8fedbeff7b8efc5.resource",
+   "size": 3328,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/3e21f1070dead134e8fedbeff7b8efc5.resource"
+  },
+  {
+   "compression": 8,
    "hash": "d9f5bfbe26a1d6b3e6f290de1c40a281578264f4",
    "pkgpath": "Data/464a8e444d372e84186c743f74c741bd",
    "size": 4124,
@@ -28,16 +112,72 @@
   },
   {
    "compression": 8,
-   "hash": "9de5a180be6fb26f6ac05ff4393bd4de812feccd",
+   "hash": "86892586a76ef9ac552ad6062d3394fc6dda50a4",
+   "pkgpath": "Data/588d43614b88d4d4eb8f435269cf7a24",
+   "size": 4204,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/588d43614b88d4d4eb8f435269cf7a24"
+  },
+  {
+   "compression": 8,
+   "hash": "ffe7e2252805f48f5d62a46d883248a66d34421d",
+   "pkgpath": "Data/588d43614b88d4d4eb8f435269cf7a24.resource",
+   "size": 5376,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/588d43614b88d4d4eb8f435269cf7a24.resource"
+  },
+  {
+   "compression": 8,
+   "hash": "de952c5bda359541b0b2d69a2fafef2ae320e314",
+   "pkgpath": "Data/62dc4d2cde5615d4c99900cab051e25b",
+   "size": 4204,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/62dc4d2cde5615d4c99900cab051e25b"
+  },
+  {
+   "compression": 8,
+   "hash": "5f0776d841f25382844fa19db6f80b24860e1157",
+   "pkgpath": "Data/62dc4d2cde5615d4c99900cab051e25b.resource",
+   "size": 3392,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/62dc4d2cde5615d4c99900cab051e25b.resource"
+  },
+  {
+   "compression": 8,
+   "hash": "e2ddef2590df9caf9b5ee72f84773b97bcd0e930",
+   "pkgpath": "Data/90161d8a4042aef4a9ac6252459dac12",
+   "size": 4204,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/90161d8a4042aef4a9ac6252459dac12"
+  },
+  {
+   "compression": 8,
+   "hash": "27d930ce9fca9abc4c9760cb2fb129bc02e9abf0",
+   "pkgpath": "Data/90161d8a4042aef4a9ac6252459dac12.resource",
+   "size": 3008,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/90161d8a4042aef4a9ac6252459dac12.resource"
+  },
+  {
+   "compression": 8,
+   "hash": "b2c08b0f726e580f7ec3b3dfe705fe628655dbca",
+   "pkgpath": "Data/9edeb505ae0a92d44880717923f2775a",
+   "size": 4204,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/9edeb505ae0a92d44880717923f2775a"
+  },
+  {
+   "compression": 8,
+   "hash": "c99bbeed5976ad97bd900c3b0bcb50b7bb05618a",
+   "pkgpath": "Data/9edeb505ae0a92d44880717923f2775a.resource",
+   "size": 5504,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/9edeb505ae0a92d44880717923f2775a.resource"
+  },
+  {
+   "compression": 8,
+   "hash": "08847e847ce77c3972f5c8d97a51f9ec2545b00e",
    "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
-   "size": 5629460,
+   "size": 5636348,
    "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
   },
   {
    "compression": 8,
-   "hash": "c87018906fcf1c1eb2039c71d3e38aa2c90309c5",
+   "hash": "b13ec5dc1c56e0800acd73946af38f2664a0ffdc",
    "pkgpath": "bin/libil2cpp.so",
-   "size": 65127928,
+   "size": 65362760,
    "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/Native/libil2cpp.so",
    "xfrm_flags": {
     "signed": {
@@ -48,9 +188,9 @@
      "version": 3
     }
    },
-   "xfrm_hash": "e3fddd8fb15789666ec097f5eb903cf21fda4fad",
+   "xfrm_hash": "ce3d29975400eabc91513be1ce8d61590cf7c82d",
    "xfrm_path": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/.out/.cache/release_lumin_clang-3.8_aarch64/com.magicleap.raycast-729591c61ce3457c\\libil2cpp.so-f7f629d877a96879",
-   "xfrm_size": 65128686
+   "xfrm_size": 65363518
   },
   {
    "compression": 8,
@@ -193,6 +333,34 @@
   },
   {
    "compression": 8,
+   "hash": "35adebc8b4d68d93a6f39217b971da76a5ab6641",
+   "pkgpath": "Data/ac1fbd757d7081543a3466d2403eb0f9",
+   "size": 4212,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/ac1fbd757d7081543a3466d2403eb0f9"
+  },
+  {
+   "compression": 8,
+   "hash": "291f553c7723491d4bd1b93377756a9a894837d5",
+   "pkgpath": "Data/ac1fbd757d7081543a3466d2403eb0f9.resource",
+   "size": 5184,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/ac1fbd757d7081543a3466d2403eb0f9.resource"
+  },
+  {
+   "compression": 8,
+   "hash": "44166df9cc8cda7370af83cd7e38c75c6c1a5c30",
+   "pkgpath": "Data/b1371f57dd265ea4bbb5075bcfafd336",
+   "size": 4208,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/b1371f57dd265ea4bbb5075bcfafd336"
+  },
+  {
+   "compression": 8,
+   "hash": "58a4f0f49a0a7115f2fd1c2b634340b1f23d22c9",
+   "pkgpath": "Data/b1371f57dd265ea4bbb5075bcfafd336.resource",
+   "size": 5216,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/b1371f57dd265ea4bbb5075bcfafd336.resource"
+  },
+  {
+   "compression": 8,
    "hash": "b088e6387dff2186fa558355a759723407bcbc0a",
    "pkgpath": "Data/boot.config",
    "size": 55,
@@ -207,23 +375,65 @@
   },
   {
    "compression": 8,
-   "hash": "ccd0037c15a009f8184149c0ccd7d64c652567ae",
+   "hash": "044557de0afc48dca0d3795a6fca32260e6228a8",
+   "pkgpath": "Data/dab029d5711443e42874780116a39fd8",
+   "size": 4204,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/dab029d5711443e42874780116a39fd8"
+  },
+  {
+   "compression": 8,
+   "hash": "27a1c403d9220ffdb76bc2d5eb84bc3802c49512",
+   "pkgpath": "Data/dab029d5711443e42874780116a39fd8.resource",
+   "size": 5760,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/dab029d5711443e42874780116a39fd8.resource"
+  },
+  {
+   "compression": 8,
+   "hash": "4d7fa0a3aa54c694499750d54ed23ea6513ecb5a",
+   "pkgpath": "Data/e72bdfad89dfd204391826ee2ac27c0d",
+   "size": 4204,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/e72bdfad89dfd204391826ee2ac27c0d"
+  },
+  {
+   "compression": 8,
+   "hash": "da1dd4266497467c04a4b17068d6a0466454b1f4",
+   "pkgpath": "Data/e72bdfad89dfd204391826ee2ac27c0d.resource",
+   "size": 5312,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/e72bdfad89dfd204391826ee2ac27c0d.resource"
+  },
+  {
+   "compression": 8,
+   "hash": "1a4bd431eb5d71629be0887440e1df60643edad9",
+   "pkgpath": "Data/f3c41fe82c2122540814ececa0d0802d",
+   "size": 4204,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/f3c41fe82c2122540814ececa0d0802d"
+  },
+  {
+   "compression": 8,
+   "hash": "c3494db64b6c0869455700a6bb7d89d2f08540c6",
+   "pkgpath": "Data/f3c41fe82c2122540814ececa0d0802d.resource",
+   "size": 3552,
+   "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/f3c41fe82c2122540814ececa0d0802d.resource"
+  },
+  {
+   "compression": 8,
+   "hash": "6327cf5d94330c735724f5f4d19854c416607cef",
    "pkgpath": "Data/globalgamemanagers",
-   "size": 35516,
+   "size": 35892,
    "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/globalgamemanagers"
   },
   {
    "compression": 8,
-   "hash": "5d70de55162d724707c25bc1194ffa2a72cd3e06",
+   "hash": "7e6ff882348e116fc7e05704f62675446e35210a",
    "pkgpath": "Data/globalgamemanagers.assets",
-   "size": 43576,
+   "size": 43696,
    "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/globalgamemanagers.assets"
   },
   {
    "compression": 8,
-   "hash": "9d1dfb11084ca8c5a83960387a5260d5ec6072cf",
+   "hash": "c8fb666abc363fbf9d9e7b8a9ceaa7e1eff95e31",
    "pkgpath": "Data/level0",
-   "size": 10760,
+   "size": 11324,
    "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/level0"
   },
   {
@@ -235,9 +445,9 @@
   },
   {
    "compression": 8,
-   "hash": "39b28bf5da541891821bc1b064a984dfb894dcd8",
+   "hash": "f9c42372a3dbd0d599f5e507e7c20983dc679fe7",
    "pkgpath": "Data/sharedassets0.assets",
-   "size": 840584,
+   "size": 840684,
    "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/sharedassets0.assets"
   },
   {
@@ -249,9 +459,9 @@
   },
   {
    "compression": 8,
-   "hash": "b41430d1b981b39b679ea0d0492dafdec626cd05",
+   "hash": "48b7492f625fc7f31ff9ab2ae52925471f302c72",
    "pkgpath": "Data/sharedassets0.resource",
-   "size": 693632,
+   "size": 699264,
    "src": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/Temp/StagingArea/Data/sharedassets0.resource"
   },
   {
@@ -317,9 +527,9 @@
   },
   {
    "compression": 8,
-   "hash": "0e23820b53c69ac4bad262da3e8de743a58522b7",
+   "hash": "45a7928d04079ec9c21bac9d5ac66440beb586b4",
    "pkgpath": "manifest.xml",
-   "size": 715,
+   "size": 667,
    "src": "C:\\Users\\asunn\\Projects\\Direct-Unity-1.0.0\\Direct\\Temp\\StagingArea\\manifest.xml",
    "xfrm_flags": {
     "manifest": {
@@ -327,9 +537,9 @@
      "developer_id": "9fb65bed-f577-4210-9c5a-95995609137d"
     }
    },
-   "xfrm_hash": "8dd1476954b587a3b5af235db16b0a9496029a14",
+   "xfrm_hash": "785bbf1d48905b16d6b243e18ccea1b43b95b1e3",
    "xfrm_path": "C:/Users/asunn/Projects/Direct-Unity-1.0.0/Direct/.out/.cache/release_lumin_clang-3.8_aarch64/com.magicleap.raycast-729591c61ce3457c\\manifest.xml-891fc976378e8aa2",
-   "xfrm_size": 727
+   "xfrm_size": 679
   }
  ],
  "pkgflags": {

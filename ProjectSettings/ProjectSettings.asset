@@ -652,7 +652,6 @@ PlayerSettings:
   - GesturesSubscribe
   - GesturesConfig
   - WorldReconstruction
-  - CameraCapture
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 3
   cloudProjectId: 

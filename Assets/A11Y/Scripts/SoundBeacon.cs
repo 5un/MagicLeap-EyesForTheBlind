@@ -7,9 +7,10 @@ public class SoundBeacon : MonoBehaviour {
     public float minPulseFrequency = 1f / 5f;
     public float maxPulseFrequency = 8f;
     public PulseGenerator pulseGenerator;
-    public float cameraBoxSize = 2;
-    public float maxPitch = 2000f;
-    public float minPitch = 500f;
+    public AudioSource audioSource;
+    public float cameraBoxSize = 2f;
+    public float maxPitch = 2.0f;
+    public float minPitch = 1.0f;
 
     private Camera _camera;
 
@@ -30,7 +31,7 @@ public class SoundBeacon : MonoBehaviour {
 
         double dist = Vector3.Distance(transform.position, _camera.gameObject.transform.position);
         float newPitch = 0f;
-        float heightDifference = transform.localPosition.y - _camera.transform.localPosition.y;
+        float heightDifference = transform.position.y - _camera.transform.position.y;
         //Debug.Log("Height difference for " + beacon.name + ": " + heightDifference);
 
         if (heightDifference >= cameraBoxSize * 0.25)
@@ -59,6 +60,10 @@ public class SoundBeacon : MonoBehaviour {
             pulseGenerator.frequency = newPitch;
         }
         
+        if(audioSource != null)
+        {
+            // audioSource.pitch = newPitch;
+        }
     }
 
     void OnCollisionEnter(Collision collision)

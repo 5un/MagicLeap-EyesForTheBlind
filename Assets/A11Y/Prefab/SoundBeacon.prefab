@@ -270,7 +270,7 @@ AudioSource:
   MinDistance: 0.5
   MaxDistance: 2
   Pan2D: 0
-  rolloffMode: 1
+  rolloffMode: 0
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -401,6 +401,7 @@ MonoBehaviour:
   minPulseFrequency: 0.2
   maxPulseFrequency: 8
   pulseGenerator: {fileID: 114496882462327862}
+  audioSource: {fileID: 82085637885896946}
   cameraBoxSize: 2
   maxPitch: 2000
   minPitch: 500
